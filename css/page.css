@@ -248,7 +248,7 @@ h4 {
 .whitebox {
     background-color:white;
     padding:30px 50px 30px 50px;
-    width:600px;
+    width:700px;
     font-size:calc(12px + .5vh); 
     box-sizing: border-box;
 }
@@ -406,4 +406,7 @@ h4 {
     margin:30px;
 }
 
-
+.footcredits {
+    line-height: 1.1;
+    font-size: (12px + 0.4vh);
+}
