@@ -1,0 +1,141 @@
+form {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  #chartsvg {
+    font: 10px sans-serif;
+  }
+
+.chartcontainer {
+    padding-top:8vh;
+}
+.chartcontainer > div {
+    margin:auto;
+}
+
+#svgcontainer {
+    position: relative;
+    z-index: 1;
+}
+.footnote {
+    position: relative;
+    top:-120px;
+    margin-top:10px;
+    font-size: calc(9px + .5vh);
+    height: 5vh;
+    z-index: 0;
+    line-height: 1.1;
+
+}
+
+  rect {
+    stroke: #fff;
+  }
+
+  text {
+      opacity: 1;
+  }
+  .button {
+      cursor: pointer;
+      background-color: #DDD;
+      border: 2px solid #DDD;
+      color: white;
+      padding: 3px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+        font-size: 14px;
+      border-radius: 4px;
+      -webkit-transition-duration: 0.3s; /* Safari */
+      transition-duration: 0.3s;
+      width:100px;
+      position:relative;
+      left:10px;
+      text-align: center;
+      /* top:-28px; */
+  }
+
+  .buttonActive {
+      background-color: #BB133E;
+      border: 2px solid #BB133E;
+  }
+  .buttonActive:hover {
+      background-color: white;
+      color: #BB133E;
+  }
+
+
+  #rstBtn:hover{
+      font-weight: bold;
+  }
+
+  .legend {
+    background-color:white;
+  }
+  .legItem{
+      cursor:pointer;
+  }
+
+  .legend circle{
+      cursor:pointer;
+      stroke-width:2px;
+  }
+
+  .legendPassive {
+      opacity:0.3;
+  }
+
+  .legendPassive circle{
+      fill-opacity:0.2;
+  }
+
+  .cellFont {
+    color: #fff;
+  }
+
+  .opacityZero {
+    opacity: 0;
+  }
+
+  .break {
+      word-wrap: break-word;
+  }
+
+  #switchers {
+      margin:10px;
+      position: relative;
+      font-size: calc(9px + 0.6vh);
+  }
+
+  .switcher {
+      cursor: pointer;
+  }
+
+  #swFilters {
+      margin-right: 100px;
+  }
+
+  .switchCol {
+      display:inline-block;
+      margin:5px;
+      color: #bb133e;
+  }
+
+  .switchActive {
+    border-bottom: 3px solid #bb133e;
+  }
+
+  .switchCol:hover {
+    border-bottom: 3px solid #bb133e;
+  }
+
+  .pretext {
+      font-weight: 500;
+  }
+
+  .legend text{
+      font-size: calc(9px + 0.6vh)
+  }
+
+.boldtext {
+    font-weight: 600;
+}
