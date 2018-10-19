@@ -12,9 +12,14 @@ form {
     margin:auto;
 }
 
-#svgcontainer {
+#chartsvg {
     position: relative;
+    pointer-events: none;
     z-index: 1;
+}
+
+#maingroup g {
+    pointer-events: all;
 }
 .footnote {
     position: relative;
@@ -111,7 +116,11 @@ form {
   }
 
   #swFilters {
-      margin-right: 100px;
+      /* margin-right: 100px; */
+  }
+
+  #swSumBy {
+      float:right;
   }
 
   .switchCol {

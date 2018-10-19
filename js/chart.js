@@ -1,6 +1,6 @@
       //General setup of fundamental variables and function used in the <body onload> (DrawAllCharts)
 
-      var color, svg, width, height, svgmargin, t, treemap, parentselector, root, sortedData;
+      var color, svg, width, height, svgmargin, t, treemap, parentselector, root, sortedData,maingroup;
 
       var sumBys = {
           All: 'Všechny',
@@ -48,7 +48,8 @@
       function DrawAllCharts() {
           //Main chartcontainer = controls + treemap
           height = ($(window).height() * 0.85) - 110;
-          width = Math.min($(window).width() * 0.6, 880) //no chart margin
+          //width = Math.min($(window).width() * 0.6, 880) //no chart margin
+          width = Math.min(Math.max($(window).width() * 0.6,700),1000)
           svgmargin = 120
 
           chartcontainer = $('#app .chartcontainer')
@@ -141,7 +142,7 @@
               class: 'footnote',
               width: width
           })
-          footnote.html('Zdroj: PATSTAT; Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink" onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) z období 2000-2016 (data za roky 2014-2016 jsou neúplná z důvodu zpoždění patentových statistik). Zobrazeny jsou organizace se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektor\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" onclick="showModal(\'modDataOrganizace\')">data za organizace</a> anebo <a class="modalLink" onclick="showModal(\'modDataPatenty\')">data za nejcitovanější patenty</a>.</div>')
+          footnote.html('Zdroj: PATSTAT; Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) z období 2000-2016 (data za roky 2014-2016 jsou neúplná z důvodu zpoždění patentových statistik). Zobrazeny jsou organizace se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektor\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" onclick="showModal(\'modDataOrganizace\')">data za organizace</a> anebo <a class="modalLink" onclick="showModal(\'modDataPatenty\')">data za nejcitovanější patenty</a>.</div>')
           chartcontainer.append(footnote)
 
           //Main function for drawing the treemap and legend
@@ -311,12 +312,54 @@
           if (selectedInstTypes.length > 0) {
             data = filterData(patents, selectedInstTypes)
 
-              root.sum(sumBySize)
+            root = d3.hierarchy(data)
+            .eachBefore(function (d) {
+                d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.name;
+            })
+            .sum(sumBySize)
+
+            .sort(function (a, b) {
+                return b.height - a.height || b.value - a.value;
+            });
 
               treemap(root);
-              var cell = svg.selectAll('.cell')//.data(data).enter().append('g')
-              cell.transition()
-                  .duration(750)
+
+              //generate new cells
+            var cell = maingroup.selectAll('.cell')
+                .data(root.leaves());
+                
+            var newg = cell.enter().append("g")
+                .attr("transform", function (d) {
+                    return "translate(" + width + "," + height + ")";
+                })
+                .attr('class','cell')
+                .on("mouseover", handleMouseOver)
+                .on("mouseout", handleMouseOut);
+
+                newg.append("rect")
+                .attr("width",0)
+                .attr("height",0);
+
+                newg.append("text")
+                .attr('pointer-events', 'none')
+                .style("text-anchor", "middle");
+    
+            all = maingroup.selectAll('.cell')
+            all.attr("id", function (d) {
+                return d.data.name.replace(/ /g, '_');
+            }).attr('class', 'cell');
+
+            all.select('rect').attr("fill", function (d) {
+                return color(d.data.kategorie);
+            })
+
+
+            all.select('text').html(function (d) {
+                return myWrapper(d.data.name, d.x1 - d.x0, d.y1 - d.y0, d.data.kategorie)
+            });
+
+            maingroup.selectAll('.cell').transition()
+                  .duration(500)
                   .attr("transform", function (d) {
                       return "translate(" + d.x0 + "," + d.y0 + ")";
                   })
@@ -326,15 +369,14 @@
                   })
                   .attr("height", function (d) {
                       return d.y1 - d.y0;
+                  })
+                  .on('end', function() {
+    
                   });
 
-              cell.select('text')
-                  .attr('pointer-events', 'none')
-                  .style("text-anchor", "middle")
 
-              cell.select('text').html(function (d) {
-                  return myWrapper(d.data.name, d.x1 - d.x0, d.y1 - d.y0, d.data.kategorie)
-              })
+            cell.exit().remove();
+
           }
       }
 
@@ -348,7 +390,7 @@
               .attr('width', width + (svgmargin * 2))
               .attr('height', height + svgmargin);
 
-          maingroup = svg.append('g').attr('transform', 'translate(' + svgmargin + ',0)')
+          maingroup = svg.append('g').attr('transform', 'translate(' + svgmargin + ',0)').attr('id','maingroup')
           //draw the treemap only if some institution type is selected in the legend
           if (selectedInstTypes.length > 0) {
               //Use only the data fitered out according to selected institution types
@@ -575,7 +617,7 @@
           switchEl = $('#swSumBy #sw' + variable).addClass('switchActive');
 
           sumBy = 'citations_' + variable;
-          DrawData();
+          DrawTransition();
       }
 
       function filterInstitutions(variable) {
@@ -583,5 +625,5 @@
           switchEl = $('#swFilters #sw' + variable).addClass('switchActive');
 
           filterInst = variable;
-          DrawData();
+          DrawTransition();
       }
