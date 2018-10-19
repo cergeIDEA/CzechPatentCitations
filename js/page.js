@@ -117,13 +117,40 @@ function waypointing() {
     // CHART INTERACTIONS
     waypoints = $('#VyzkumOrg').waypoint(function(direction) {
         if(direction === 'down') {
+
+            //Institution type
             selectedInstTypes = ['avcr','vvs','ovo'];
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
+            
         } else {
             selectedInstTypes = InstTypes;
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
         }
     },
      {offset:'60%'}
@@ -132,24 +159,74 @@ function waypointing() {
     waypoints = $('#Podniky').waypoint({handler:function(direction) {
         if(direction === 'down') {
             selectedInstTypes = ['podnik'];
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
         } else {
             selectedInstTypes = ['avcr','vvs','ovo'];
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
         }
     },offset:'60%'}    );
 
     waypoints = $('#conclusion').waypoint({handler:function(direction) {
         if(direction === 'down') {
             selectedInstTypes = InstTypes;
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
+
         } else {
             selectedInstTypes = ['podnik'];
-            DrawTransition();
             ShadeLegend(selectedInstTypes);
+
+            // Sum By
+            sumBy = 'citations_All';
+            $('#swFilters .switchActive').removeClass('switchActive');
+            $('#swFilters #swAll').addClass('switchActive')
+
+            //FilterInst
+            filterInst = 'All'
+            $('#swSumBy .switchActive').removeClass('switchActive');
+            $('#swSumBy #swAll').addClass('switchActive')
+
+            //Draw
+            DrawTransition();
+            
         }
     },offset:'0%'}    );
 

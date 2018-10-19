@@ -148,3 +148,12 @@ form {
 .boldtext {
     font-weight: 600;
 }
+
+.ddlvisible {
+    color:#444;
+}
+
+.ddlunvisible {
+    color:#c6c6c6;
+}
+

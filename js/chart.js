@@ -104,14 +104,26 @@
           })
           select.append('<option />')
           controls.append(select)
-          $('#ddlSearch').on('select2:select', changeSearchDDL)
+
+          function formatSelect2(node) {
+            scolor = (node.displayed) ? 'ddlvisible' : 'ddlunvisible' 
+
+              span = '<span class="' + scolor + '">'+ node.text +'</span>'
+
+              return $(span)
+          }
+
+
+
+          $('#ddlSearch').on('change', changeSearchDDL)
           $('#ddlSearch').select2({
               data: menudata,
               width: width - title.outerWidth() - svgmargin,
               allowClear: true,
               matcher: matchCustom,
               multiple: false,
-              placeholder: 'Vyhledejte organizaci či IČO...'
+              placeholder: 'Vyhledejte organizaci či IČO...',
+              templateResult:formatSelect2
           });
           //Reset buttion for select
           //controls.append($('<a id="rstBtn" class="button buttonPassive" onclick="Redraw((),true,true)">Obnovit</a>'));
@@ -491,29 +503,41 @@
       //Function for highlighting the institution selected in the select
       function changeSearchDDL() {
           val = $('#ddlSearch').val();
-          dmenu = menudata.find(x => x.id == val)
-          if (dmenu.displayed) {
-              sel = d3.select('#' + dmenu.text.replace(/ /g, '_'))
-              el = sel._groups[0][0]
-              d = sel.data()[0]
-              showDetails(d.data, true, el, d.x1 - d.x0, d.y1 - d.y0);
-          } else {
-              hack = svg.append('g')
-                  .attr('id', 'hack')
-                  .attr('transform', 'translate(' + (width + svgmargin) + ',0)');
-              hack.append("rect")
-                  .attr("width", 10)
-                  .attr("height", 10)
-                  .attr("fill", color(dmenu.kategorie));
+          if (val !== '') {
+            dmenu = menudata.find(x => x.id == val)
+            if (dmenu.displayed) {
+                sel = d3.select('#' + dmenu.text.replace(/ /g, '_'))
+                el = sel._groups[0][0]
+                d = sel.data()[0]
+                showDetails(d.data, true, el, d.x1 - d.x0, d.y1 - d.y0);
+            } else {
+                hack = maingroup.append('g')
+                    .attr('id', 'hack')
+                    .attr('transform', 'translate(' + (width) + ',0)');
+                hack.append("rect")
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .attr("fill", color(dmenu.kategorie));
 
-              hack.append('text')
-                  .attr('x', 20)
-                  .attr('y', 20)
-                  .style('text-anchor', 'middle');
+                hack.append('text')
+                    .attr('x', 20)
+                    .attr('y', 20)
+                    .style('text-anchor', 'middle');
 
-              showDetails(dmenu, true, d3.select('#hack')._groups[0][0], 10, 10);
-          }
-      }
+                showDetails(dmenu, true, d3.select('#hack')._groups[0][0], 10, 10);
+            }
+      } else {
+          hideDetails() //TODO!!!!!!!
+        // d3.selectAll('.keepOpen')
+        //     .transition()
+        //     .duration(500)
+        //     .attr('width', 1)
+        //     .attr('height', 1)
+        //     .on('end', function () {
+        //         $('.keepOpen').remove()
+        //     });
+    }
+}
 
       //Function determining the size of rectangles based on number of citations
       function sumBySize(d) {
