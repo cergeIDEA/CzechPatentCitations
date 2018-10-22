@@ -248,7 +248,7 @@ function getSizes() {
 
 function MoveOn(selector) {
     $('html,body').animate({
-        scrollTop: $('#' +selector).offset().top - 100
+        scrollTop: $('#' +selector).offset().top
     })
 };
 

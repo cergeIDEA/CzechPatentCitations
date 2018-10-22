@@ -23,7 +23,7 @@ form {
 }
 .footnote {
     position: relative;
-    top:-120px;
+    top:-110px;
     margin-top:10px;
     font-size: calc(9px + .5vh);
     height: 5vh;

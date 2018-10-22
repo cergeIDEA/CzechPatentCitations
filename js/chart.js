@@ -78,7 +78,7 @@
 
               // `params.term` should be the term that is used for searching
               // `data.text` is the text that is displayed for the data object
-              if (data.text.indexOf(params.term) > -1) {
+              if (data.text.indexOf(params.term.toUpperCase()) > -1) {
                   var modifiedData = $.extend({}, data, true);
 
                   // You can return modified objects from here
@@ -86,7 +86,7 @@
                   return modifiedData;
               }
               if (typeof data.ico !== 'undefined') {
-                  if (data.ico.toString().indexOf(params.term) > -1) {
+                  if (data.ico.toString().indexOf(params.term.toUpperCase()) > -1) {
                       var modifiedData = $.extend({}, data, true);
 
                       // You can return modified objects from here
@@ -124,8 +124,6 @@
 
               return $(span)
           }
-
-
 
           $('#ddlSearch').on('change', changeSearchDDL)
           $('#ddlSearch').select2({
@@ -166,7 +164,7 @@
               class: 'footnote',
               width: width
           })
-          footnote.html('Zdroj: PATSTAT; Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" onclick="showModal(\'modDataOrganizace\')">data za organizace</a> anebo <a class="modalLink" onclick="showModal(\'modDataPatenty\')">data za nejcitovanější patenty</a>.</div>')
+          footnote.html('Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" onclick="showModal(\'modDataOrganizace\')">data za organizace</a> anebo <a class="modalLink" onclick="showModal(\'modDataPatenty\')">data za nejcitovanější patenty</a>. Zdroj: PATSTAT</div>')
           chartcontainer.append(footnote)
 
           //Main function for drawing the treemap and legend
@@ -299,7 +297,9 @@
               subnode = data.children[idx]
 
               if (selectedInstTypes.includes(subnode.kategorie)) {
-                  result.children.push(subnode)
+                  if (subnode[sumBy] > 0) {
+                    result.children.push(subnode)
+                  }
               }
           }
 
@@ -528,7 +528,7 @@
             } else {
                 hack = maingroup.append('g')
                     .attr('id', 'hack')
-                    .attr('transform', 'translate(' + (width) + ',0)');
+                    .attr('transform', 'translate(' + (width + 10) + ',0)');
                 hack.append("rect")
                     .attr("width", 10)
                     .attr("height", 10)
@@ -560,15 +560,21 @@
           if (w < 100) {
               w = 100
           }
-
+          newh = h * 1.2
           if (h < 100) {
-              h = 100
+              newh = 100 * 1.2
           }
-
+          //hpos = Number(g.attr('transform').slice(10,11))
           rect.attr('fill', d3.interpolateRgb(color(d.kategorie), '#FFFFFF')(0.5))
-          rect.transition()
+          g.transition()
+            .attr('transform',function(d) {
+                if (d.y0 < (height - svgmargin)) {
+                return 'translate(' + d.x0 + ',' + d.y0 + ')';
+                } else { return  'translate(' + d.x0 +',' + (d.y0 - (newh - h)) + ')';}
+            }).select('rect')
               .attr("width", w * 1.2)
-              .attr("height", h * 1.2)
+              .attr("height", newh)
+
               .on("end", function () {
                   g.select('text')
                       .html('<tspan x="' + w / 2 + '" dy="1.2em" class="boldtext">' + d.name + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">IČO: ' + d.ico + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">Citací: ' + d.citations_All + ',</tspan><tspan x="' + w / 2 + '" dy="1.2em"> z Česka: ' + d.citations_CZ + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> ze zahraničí: ' + d.citations_INT + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> Patentů: ' + d.patents + '</tspan>')
@@ -592,7 +598,6 @@
                   }
 
               });
-
       }
 
       //Mouse handlers for highlighting the hovered institution rect
@@ -632,7 +637,13 @@
               })
           } else {
               rect.attr('fill', color(d.data.kategorie))
-              rect.transition().attr("width", d.x1 - d.x0).attr("height", d.y1 - d.y0).on('end', function () {
+
+              g.transition()
+              .attr('transform',function() { return 'translate('+d.x0 +','+ d.y0 + ')';})
+              .select('rect')
+              .attr("width", d.x1 - d.x0)
+              .attr("height", d.y1 - d.y0)
+              .on('end', function () {
                   g.select('text')
                       .html(myWrapper(d.data.name, d.x1 - d.x0, d.y1 - d.y0,d.data.kategorie));
               })
