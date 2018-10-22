@@ -333,6 +333,8 @@
 
 
       function DrawTransition() {
+        $('#ddlSearch').val('').change()
+
           if (selectedInstTypes.length > 0) {
             data = filterData(patents, selectedInstTypes)
 
@@ -514,10 +516,11 @@
 
       //Function for highlighting the institution selected in the select
       function changeSearchDDL() {
-          val = $('#ddlSearch').val();
-          if (val !== '') {
+        val = $('#ddlSearch').val();
+        hideAll();
+        if (val !== '') {
             dmenu = menudata.find(x => x.id == val)
-            if (dmenu.displayed) {
+            if ($('#ico' + dmenu.ico).length) {
                 sel = d3.select('#ico' + dmenu.ico);//text.replace(/ /g, '_'))
                 el = sel._groups[0][0]
                 d = sel.data()[0]
@@ -538,18 +541,8 @@
 
                 showDetails(dmenu, true, d3.select('#hack')._groups[0][0], 10, 10);
             }
-      } else {
-          hideDetails() //TODO!!!!!!!
-        // d3.selectAll('.keepOpen')
-        //     .transition()
-        //     .duration(500)
-        //     .attr('width', 1)
-        //     .attr('height', 1)
-        //     .on('end', function () {
-        //         $('.keepOpen').remove()
-        //     });
+        }
     }
-}
 
       //Function determining the size of rectangles based on number of citations
       function sumBySize(d) {
@@ -584,7 +577,7 @@
 
                   if (keepOpen) {
                       g.classed('keepOpen', true)
-                      g.on('mouseover', function () {})
+                      g.on('mouseover', function () {d3.select(this).raise()})
                       g.on('mouseout', function () {})
 
                       g.append('text')
@@ -606,7 +599,14 @@
       function handleMouseOver(d, i) {
           showDetails(d.data, false, this, d.x1 - d.x0, d.y1 - d.y0)
       }
+      function hideAll() {
+        sel = d3.selectAll('.keepOpen')
+        el = sel._groups[0][0]
+        d = sel.data()[0]
 
+        hideDetails(d, true, el);
+
+      }
       function hideDetailBox(ico) {
           dmenu = menudata.find(x => x.id == ico)
 
@@ -627,7 +627,7 @@
               g.select('.closing').remove();
           }
           if (typeof d === 'undefined') {
-              d3.selectAll('#hack').transition().attr('width', 1).attr('height', 1).on('end', function () {
+              d3.selectAll('#hack rect').transition().attr('width', 1).attr('height', 1).on('end', function () {
                   $('#hack').remove()
               })
           } else {

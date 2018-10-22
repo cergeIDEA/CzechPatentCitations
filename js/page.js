@@ -209,7 +209,6 @@ function waypointing() {
 
             //Draw
             DrawTransition();
-
         } else {
             selectedInstTypes = ['podnik'];
             ShadeLegend(selectedInstTypes);
@@ -226,7 +225,6 @@ function waypointing() {
 
             //Draw
             DrawTransition();
-            
         }
     },offset:'0%'}    );
 
