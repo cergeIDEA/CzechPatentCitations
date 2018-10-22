@@ -564,14 +564,17 @@
           if (h < 100) {
               newh = 100 * 1.2
           }
+
           //hpos = Number(g.attr('transform').slice(10,11))
           rect.attr('fill', d3.interpolateRgb(color(d.kategorie), '#FFFFFF')(0.5))
           g.transition()
             .attr('transform',function(d) {
+                if (typeof d !== 'undefined'){
                 if (d.y0 < (height - svgmargin)) {
                 return 'translate(' + d.x0 + ',' + d.y0 + ')';
                 } else { return  'translate(' + d.x0 +',' + (d.y0 - (newh - h)) + ')';}
-            }).select('rect')
+            } else {return 'translate(' + (width + 10) + ',0)'} 
+        }).select('rect')
               .attr("width", w * 1.2)
               .attr("height", newh)
 
