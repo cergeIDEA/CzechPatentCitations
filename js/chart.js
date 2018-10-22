@@ -164,7 +164,7 @@
               class: 'footnote',
               width: width
           })
-          footnote.html('Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" onclick="showModal(\'modDataOrganizace\')">data za organizace</a> anebo <a class="modalLink" onclick="showModal(\'modDataPatenty\')">data za nejcitovanější patenty</a>. Zdroj: PATSTAT</div>')
+          footnote.html('Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: PATSTAT</div>')
           chartcontainer.append(footnote)
 
           //Main function for drawing the treemap and legend

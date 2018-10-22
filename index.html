@@ -121,9 +121,7 @@
                     <p>Klikáním na legendu vyberete různé sektory, zobrazíte pouze organizace s nejvíce citacemi anebo
                         zúžíte výběr na <a class="modalLink" onclick="showModal('modCeskeZahranicniCitace')">české či
                             zahraniční citace</a>, čímž si můžete vytvořit vlastní srovnání.</p>
-                    <p>Pod grafem jsou odkazy na vysvětlivky a pro stažení kompletních podkladových <a class="modalLink"
-                            onclick="showModal('modDataOrganizace')">dat za organizace</a> anebo výpisu <a class="modalLink"
-                            onclick="showModal('modDataPatenty')">dat za nejcitovanější patenty</a>.</p>
+                    <p>Pod grafem jsou odkazy na vysvětlivky a pro stažení kompletních podkladových <a class="modalLink" href="xls/DataOrganizace.xlsx" >dat za organizace</a> anebo výpisu <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">dat za nejcitovanější patenty</a>.</p>
                 </div>
             </div>
         </div>
@@ -241,8 +239,7 @@
                         target="_blank">zprávě NKÚ</a>, že potřebujeme více patentů. Špičkového v praxi uplatnitelného
                     výzkumu není nikdy dost. Avšak rozhodující je kvalita, nikoliv kvantita patentů!</p>
                 <p><img width="100%" src="img/figKvantitaKvalita.png" /></p>
-                <p class="tip">Tip: Pro srovnání jednotlivých organizací si stáhněte podkladová <a class="modalLink"
-                        onclick="showModal('modDataOrganizace')">data za organizace</a>.</p>
+                <p class="tip">Tip: Pro srovnání jednotlivých organizací si stáhněte podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a>.</p>
             </div>
         </div>
         <div class="fixempty fullscreen"></div>
@@ -316,7 +313,7 @@
                     <h3>Organizace</h3>
                     <p>Do analýzy jsou zařazeny organizace se sídlem na území Česka, které byly uvedeny v databázi <a href="https://www.epo.org/searching-for-patents/business/patstat.html#tab-1" target="_blank">PATSTAT</a> (Spring 2016 edition) jako vlastníci alespoň jedné žádosti o patent s datem podání od roku 2000.</p>
                     <p>PATSTAT neposkytuje unikátní identifikátory. Názvy organizací bylo nutné s pomocí algoritmů i ručně vyčistit a harmonizovat. Následně bylo k názvu na základě <a href="https://www.czso.cz/csu/res/registr_ekonomickych_subjektu" target="_blank">Registru ekonomických subjektů</a> přiřazeno IČO.</p>
-                    <p>Základní jednotkou je organizace s vlastním IČO. Dokážeme rozlišit ústavy Akademie věd ČR, ale nikoliv jednotlivé fakulty vysokých škol. Pro podniky nejsou údaje konsolidovany podle koncového vlastníka na úrovni koncernu anebo skupiny podniků.</p>
+                    <p>Základní jednotkou je organizace s vlastním IČO. Dokážeme rozlišit ústavy Akademie věd ČR, ale nikoliv jednotlivé fakulty vysokých škol. Podniky nejsou konsolidovany podle koncového vlastníka na úrovni koncernu anebo skupiny.</p>
                     <p>Jednotlivé fyzické osoby, které jsou nejen vynálezci, ale často i přímo vlastníky patentů, nesledujeme, protože tyto údaje se ukázaly být ještě náročnější ke zpracování.</p>
                     <p>Z podkladových dat známe pouze posledního vlastníka. Pokud byla práva k patentu získána od někoho jiného, předchozího vlastníka nedokážeme vystopovat.</p>
                     <p>Patent vlastněný více organizacemi je přiřazen v plném rozsahu ke každé z nich, tj. bez zohlednění vlastnických podílů. Při sčítání údajů mezi spoluvlastníky tudíž dochází k vícenásobnému započítání.</p>

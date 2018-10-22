@@ -357,6 +357,7 @@ h4 {
     color:#bb133e;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .modalLink:hover {  
