@@ -106,7 +106,19 @@
           controls.append(select)
 
           function formatSelect2(node) {
-            scolor = (node.displayed) ? 'ddlvisible' : 'ddlunvisible' 
+            scolor = (node.displayed) ? 'ddlvisible' : 'ddlunvisible'
+
+            if (filterInst !== 'All') {
+                if (typeof node.ico !== 'undefined') {
+
+                    if ($('#ico'+node.ico).length == 0) {
+                        scolor = 'ddlunvisible';
+                    }
+                    else {
+                        console.log()
+                    }
+                }
+            }
 
               span = '<span class="' + scolor + '">'+ node.text +'</span>'
 
@@ -358,7 +370,7 @@
     
             all = maingroup.selectAll('.cell')
             all.attr("id", function (d) {
-                return d.data.name.replace(/ /g, '_');
+                return 'ico'+ d.data.ico;//name.replace(/ /g, '_');
             }).attr('class', 'cell');
 
             all.select('rect').attr("fill", function (d) {
@@ -425,7 +437,7 @@
                       return "translate(" + d.x0 + "," + d.y0 + ")";
                   })
                   .attr("id", function (d) {
-                      return d.data.name.replace(/ /g, '_');
+                      return 'ico'+ d.data.ico;//name.replace(/ /g, '_');
                   }).attr('class', 'cell')
                   .on("mouseover", handleMouseOver)
                   .on("mouseout", handleMouseOut);
@@ -506,7 +518,7 @@
           if (val !== '') {
             dmenu = menudata.find(x => x.id == val)
             if (dmenu.displayed) {
-                sel = d3.select('#' + dmenu.text.replace(/ /g, '_'))
+                sel = d3.select('#ico' + dmenu.ico);//text.replace(/ /g, '_'))
                 el = sel._groups[0][0]
                 d = sel.data()[0]
                 showDetails(d.data, true, el, d.x1 - d.x0, d.y1 - d.y0);
@@ -598,7 +610,7 @@
       function hideDetailBox(ico) {
           dmenu = menudata.find(x => x.id == ico)
 
-          sel = d3.select('#' + dmenu.text.replace(/ /g, '_'))
+          sel = d3.select('#ico' + dmenu.ico);//text.replace(/ /g, '_'))
           el = sel._groups[0][0]
           d = sel.data()[0]
 
