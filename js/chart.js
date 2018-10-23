@@ -464,54 +464,53 @@
           }; //the end of if selectedInstTypes>0
 
       } //the end of DrawData()
+      function wrapText(text,elw,elh) {
+            const letter = 6; //average length of a letter in pixels
+            const row = 11; //average height of row
+            const margin_w = 10; //width margin of a cell (left + right)
+            const margin_h = 10; //height margin of a cell (top + bottom)
+
+            const maxletters = Math.floor((elw - margin_w) / letter); //maximum letters in a row
+            const maxrows = Math.floor((elh - margin_h) / row); // max rows in a cell
+
+            let words = text.split(' ');
+
+            result = [];
+            rows=0;
+            loopLines: do { 
+                let line = [];
+                let letInRow = 0;
+                loopWords:
+                    do {
+                        word_candidate = words[0] 
+                        if ((letInRow + word_candidate.length) <= maxletters) {
+                            let word = words.shift()
+                            line.push(word + ' ')
+                            letInRow += word.length
+                        } else {
+                            if (word_candidate.length > maxletters) {
+                                line.push(word_candidate.substring(0, maxletters) + '-')
+                                words[0] = word_candidate.substring(maxletters)
+                                break loopWords;
+                            } else {
+                                break loopWords;
+                            }
+                        }
+                    } while ((letInRow <= maxletters) && (words.length != 0))
+                result.push(line.join(' '))
+                rows += 1
+            } while ((rows <= maxrows) && (words.length != 0))
+            return result;
+        }
 
       function myWrapper(text, elw, elh, kategorie) {
-          if (text === 'ÚSTAV ORGANICKÉ CHEMIE A BIOCHEMIE AV ČR') {
-              console.log()
-          }
-          const letter = 6; //average length of a letter in pixels
-          const row = 11; //average height of row
-          const margin_w = 10; //width margin of a cell (left + right)
-          const margin_h = 10; //height margin of a cell (top + bottom)
-
-          const maxletters = Math.floor((elw - margin_w) / letter); //maximum letters in a row
-          const maxrows = Math.floor((elh - margin_h) / row); // max rows in a cell
-
-          const letters = text.length;
-          const words = text.split(' ');
-
-          let result = [];
-
-          let rows = 0;
 
           // Only when target cell of certain size and if the category is actually displayed
           if ((elh > 40 || elw > 40) && selectedInstTypes.includes(kategorie)) {
-              loopLines: do { 
-                  let line = [];
-                  let letInRow = 0;
-                  loopWords:
-                      do {
-                          word_candidate = words[0] 
-                          if ((letInRow + word_candidate.length) <= maxletters) {
-                              let word = words.shift()
-                              line.push(word + ' ')
-                              letInRow += word.length
-                          } else {
-                              if (word_candidate.length > maxletters) {
-                                  line.push(word_candidate.substring(0, maxletters) + '-')
-                                  words[0] = word_candidate.substring(maxletters)
-                                  break loopWords;
-                              } else {
-                                  break loopWords;
-                              }
-                          }
-                      } while ((letInRow <= maxletters) && (words.length != 0))
-                  result.push(line.join(' '))
-                  rows += 1
-              } while ((rows <= maxrows) && (words.length != 0))
-          }
-          let minHeight = (elh / 2) - ((row / 2) * result.length)
-          return result.map((x, i) => '<tspan x="' + elw / 2 + '" y="' + (minHeight + (i + 1) * row) + '">' + x.trim() + '</tspan>').join('')
+            result = wrapText(text,elw,elh)
+          } else {result = [];}
+          let minHeight = (elh / 2) - ((11 / 2) * result.length)
+          return result.map((x, i) => '<tspan x="' + elw / 2 + '" y="' + (minHeight + (i + 1) * 11) + '">' + x.trim() + '</tspan>').join('')
       }
 
       //Function for highlighting the institution selected in the select
@@ -553,6 +552,31 @@
           }
       }
 
+      function textDetail(d,w,h) {
+          newh = Math.max(h * 1.2,120)
+          neww = Math.max(w *1.2,120)
+
+        result = wrapText(d.name,neww,newh)
+        bolds = result.length;
+        result.push('IČO: ' + d.ico)
+        result.push('Citací: ' + d.citations_All)
+        result.push(' z Česka: ' + d.citations_CZ)
+        result.push(' ze zahraničí: ' + d.citations_INT)
+        result.push('Patentů: ' + d.patents)
+
+        let minHeight = (newh / 2) - ((11 / 2) * result.length)
+
+        function tspanIt(x,i,minHeight,bolds,w) {
+            first ='<tspan x="' + w / 2 + '" y="' + (minHeight + (i + 1) * 11) + '"';
+            second =  (i < bolds) ? ' class="boldtext"' :'';
+            third =  '>' + x + '</tspan>'
+            return first + second + third;
+        }
+        return result.map((x, i) => tspanIt(x,i,minHeight,bolds,neww)).join('')
+
+        //return '<tspan x="' + w / 2 + '" dy="1.2em" class="boldtext">' + d.name + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">IČO: ' + d.ico + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">Citací: ' + d.citations_All + ',</tspan><tspan x="' + w / 2 + '" dy="1.2em"> z Česka: ' + d.citations_CZ + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> ze zahraničí: ' + d.citations_INT + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> Patentů: ' + d.patents + '</tspan>'
+      }
+
       function showDetails(d, keepOpen, el, w, h) {
           var g = d3.select(el) //.attr(id)
           g.raise()
@@ -580,7 +604,7 @@
 
               .on("end", function () {
                   g.select('text')
-                      .html('<tspan x="' + w / 2 + '" dy="1.2em" class="boldtext">' + d.name + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">IČO: ' + d.ico + '</tspan><tspan x="' + w / 2 + '" dy="1.2em">Citací: ' + d.citations_All + ',</tspan><tspan x="' + w / 2 + '" dy="1.2em"> z Česka: ' + d.citations_CZ + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> ze zahraničí: ' + d.citations_INT + '</tspan><tspan x="' + w / 2 + '" dy="1.2em"> Patentů: ' + d.patents + '</tspan>')
+                      .html(textDetail(d,w,h))
                       .attr("y", h / 5)
                       .classed('opacityZero', false);
 
