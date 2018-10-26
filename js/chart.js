@@ -4,7 +4,7 @@
 
       var sumBys = {
           All: 'Všechny',
-          CZ: 'České',
+          CZ: 'Domácí',
           INT: 'Zahraniční'
       };
       var sumBy = 'citations_All';
@@ -164,7 +164,7 @@
               class: 'footnote',
               width: width
           })
-          footnote.html('Pozn.: Do analýzy jsou zařazeny patenty zaznamenaná v databází <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: PATSTAT</div>')
+          footnote.html('Pozn.: Do analýzy jsou zařazeny žádosti o patent zaznamenané v databázi <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: Vlastní výpočty na základě <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a></div>')
           chartcontainer.append(footnote)
 
           //Main function for drawing the treemap and legend
@@ -239,7 +239,7 @@
       }
 
       function DrawLegend() {
-          distances = [30, 130, 260, 430].map(x => x * (width / 757.8))
+          distances = [0, 100, 230, 400].map(x => x * (width / 757.8))
 
           var svg = d3.select("#legendDiv")
               .append("svg")
@@ -248,12 +248,12 @@
               .attr('class', 'legend')
               .attr('id', 'legendSvg')
 
-          svg.append('g')
-              .attr('transform', 'translate(10,0)')
-              .append('text')
-              .text('Zobrazit: ')
-              .attr('dy', '.85em')
-              .classed('pretext', true);
+        //   svg.append('g')
+        //       .attr('transform', 'translate(10,0)')
+        //       .append('text')
+        //       .text('Zobrazit: ')
+        //       .attr('dy', '.85em')
+        //       .classed('pretext', true);
 
           g = svg.selectAll('.legItem')
               .data(legendTexts)
@@ -264,7 +264,7 @@
                   return d.id
               })
               .attr('transform', function (d, i) {
-                  return 'translate(' + (50 + distances[i]) + ',0)'
+                  return 'translate(' + (10 + distances[i]) + ',0)'
               })
               .on('click', function (d) {
                   ChangeInstType(d);
@@ -479,6 +479,7 @@
             rows=0;
             loopLines: do { 
                 let line = [];
+                let nextLine = [];
                 let letInRow = 0;
                 loopWords:
                     do {
@@ -489,15 +490,26 @@
                             letInRow += word.length
                         } else {
                             if (word_candidate.length > maxletters) {
-                                line.push(word_candidate.substring(0, maxletters) + '-')
-                                words[0] = word_candidate.substring(maxletters)
-                                break loopWords;
+                                if (letInRow) {
+                                    break loopWords;
+                                } else {
+                                    line.push(word_candidate.substring(0, maxletters) + '-')
+                                    words[0] = word_candidate.substring(maxletters)
+                                    break loopWords;
+                                }
                             } else {
+                                let word = words.shift()
+                                nextLine.push(word + ' ')
+                                letInRow += word.length
+    
                                 break loopWords;
                             }
                         }
                     } while ((letInRow <= maxletters) && (words.length != 0))
                 result.push(line.join(' '))
+                if(nextLine.length) {
+                    result.push(nextLine.join(' '))
+                }
                 rows += 1
             } while ((rows <= maxrows) && (words.length != 0))
             return result;
