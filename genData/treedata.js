@@ -1,7 +1,7 @@
-var patents = {
+﻿var patents = {
  "name":"patents", 
 
-{
+
   "children": [
     {
       "ico": 493,
@@ -10,7 +10,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1
     },
     {
@@ -20,7 +20,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 3,
       "citations_INT": 1,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 2
     },
     {
@@ -30,17 +30,17 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 1,
       "citations_INT": 8,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 5
     },
     {
       "ico": 9211,
-      "name": "CZ STRAKONICE",
+      "name": "ČZ STRAKONICE",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 7
     },
     {
@@ -50,7 +50,7 @@ var patents = {
       "citations_All": 13,
       "citations_CZ": 3,
       "citations_INT": 10,
-      "patents": 13,
+      "pocet patentu": 13,
       "ID": 8
     },
     {
@@ -60,17 +60,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 9
     },
     {
       "ico": 10898,
-      "name": "UNIPLET TREBIC",
+      "name": "UNIPLET TŘEBÍČ",
       "kategorie": "podnik",
       "citations_All": 4,
       "citations_CZ": 1,
       "citations_INT": 3,
-      "patents": 41,
+      "pocet patentu": 41,
       "ID": 10
     },
     {
@@ -80,7 +80,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 11
     },
     {
@@ -90,7 +90,7 @@ var patents = {
       "citations_All": 96,
       "citations_CZ": 1,
       "citations_INT": 95,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 12
     },
     {
@@ -100,7 +100,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 1,
       "citations_INT": 7,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 14
     },
     {
@@ -110,7 +110,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 3,
       "citations_INT": 4,
-      "patents": 40,
+      "pocet patentu": 40,
       "ID": 17
     },
     {
@@ -120,17 +120,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 29
     },
     {
       "ico": 23736,
-      "name": "ÚSTAV HEMATOLOGIE A KREVNÍ TRANSFÚZE",
+      "name": "ÚSTAV HEMATOLOGIE A KREVNÍ TRANSFUZE",
       "kategorie": "ovo",
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 30
     },
     {
@@ -140,7 +140,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 31
     },
     {
@@ -150,7 +150,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 43,
+      "pocet patentu": 43,
       "ID": 33
     },
     {
@@ -160,7 +160,7 @@ var patents = {
       "citations_All": 13,
       "citations_CZ": 7,
       "citations_INT": 6,
-      "patents": 84,
+      "pocet patentu": 84,
       "ID": 34
     },
     {
@@ -170,7 +170,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 5,
       "citations_INT": 3,
-      "patents": 54,
+      "pocet patentu": 54,
       "ID": 35
     },
     {
@@ -180,7 +180,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 2,
       "citations_INT": 4,
-      "patents": 36,
+      "pocet patentu": 36,
       "ID": 36
     },
     {
@@ -190,7 +190,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 3,
       "citations_INT": 0,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 37
     },
     {
@@ -200,7 +200,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 39
     },
     {
@@ -210,7 +210,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 43
     },
     {
@@ -220,7 +220,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 45
     },
     {
@@ -230,7 +230,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 48
     },
     {
@@ -240,27 +240,27 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 50
     },
     {
       "ico": 176109,
-      "name": "PRVNI BRNENSKA STROJIRNA VELKA BITES",
+      "name": "PRVNÍ BRNĚNSKÁ STROJÍRNA VELKÁ BÍTEŠ",
       "kategorie": "podnik",
       "citations_All": 11,
       "citations_CZ": 1,
       "citations_INT": 10,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 53
     },
     {
       "ico": 177041,
-      "name": "SKODA AUTO",
+      "name": "ŠKODA AUTO",
       "kategorie": "podnik",
       "citations_All": 506,
       "citations_CZ": 7,
       "citations_INT": 499,
-      "patents": 281,
+      "pocet patentu": 281,
       "ID": 55
     },
     {
@@ -270,7 +270,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 56
     },
     {
@@ -280,17 +280,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 57
     },
     {
       "ico": 216208,
-      "name": "UNIVERZITA KARLOVA V PRAZE",
+      "name": "UNIVERZITA KARLOVA",
       "kategorie": "vvs",
       "citations_All": 67,
       "citations_CZ": 14,
       "citations_INT": 53,
-      "patents": 95,
+      "pocet patentu": 95,
       "ID": 59
     },
     {
@@ -300,7 +300,7 @@ var patents = {
       "citations_All": 49,
       "citations_CZ": 2,
       "citations_INT": 47,
-      "patents": 60,
+      "pocet patentu": 60,
       "ID": 60
     },
     {
@@ -310,7 +310,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 4,
       "citations_INT": 5,
-      "patents": 50,
+      "pocet patentu": 50,
       "ID": 61
     },
     {
@@ -320,7 +320,7 @@ var patents = {
       "citations_All": 31,
       "citations_CZ": 7,
       "citations_INT": 24,
-      "patents": 186,
+      "pocet patentu": 186,
       "ID": 62
     },
     {
@@ -330,7 +330,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 63
     },
     {
@@ -340,7 +340,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 1,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 64
     },
     {
@@ -350,7 +350,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 65
     },
     {
@@ -360,7 +360,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 68
     },
     {
@@ -370,7 +370,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 69
     },
     {
@@ -380,7 +380,7 @@ var patents = {
       "citations_All": 73,
       "citations_CZ": 0,
       "citations_INT": 73,
-      "patents": 30,
+      "pocet patentu": 30,
       "ID": 71
     },
     {
@@ -390,27 +390,27 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 80
     },
     {
       "ico": 565997,
-      "name": "CKD PRAHA DIZ",
+      "name": "ČKD PRAHA DIZ",
       "kategorie": "podnik",
       "citations_All": 21,
       "citations_CZ": 0,
       "citations_INT": 21,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 84
     },
     {
       "ico": 883921,
-      "name": "IFER - ASTAV PRO VYZKUM LESNICH EKOSYSTEMU",
+      "name": "IFER - ÚSTAV PRO VÝZKUM LESNÍCH EKOSYSTÉMŮ",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 92
     },
     {
@@ -420,7 +420,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 98
     },
     {
@@ -430,27 +430,27 @@ var patents = {
       "citations_All": 23,
       "citations_CZ": 1,
       "citations_INT": 22,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 101
     },
     {
       "ico": 10132244,
-      "name": "MICHAL RYBAR-INSTAPLAST",
+      "name": "MICHAL RYBÁŘ",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 106
     },
     {
       "ico": 10557300,
-      "name": "ILJA KREJCI - ENGINEERING",
+      "name": "ILJA KREJČÍ",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 108
     },
     {
@@ -460,17 +460,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 109
     },
     {
       "ico": 13583808,
-      "name": "TP Jaroměř",
+      "name": "TP JAROMĚŘ",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 110
     },
     {
@@ -480,7 +480,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 120
     },
     {
@@ -490,7 +490,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 125
     },
     {
@@ -500,7 +500,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 126
     },
     {
@@ -510,7 +510,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 130
     },
     {
@@ -520,7 +520,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 139
     },
     {
@@ -530,7 +530,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 145
     },
     {
@@ -540,7 +540,7 @@ var patents = {
       "citations_All": 185,
       "citations_CZ": 9,
       "citations_INT": 176,
-      "patents": 43,
+      "pocet patentu": 43,
       "ID": 149
     },
     {
@@ -550,7 +550,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 153
     },
     {
@@ -560,7 +560,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 4,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 157
     },
     {
@@ -570,7 +570,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 159
     },
     {
@@ -580,7 +580,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 162
     },
     {
@@ -590,7 +590,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 2,
       "citations_INT": 7,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 167
     },
     {
@@ -600,7 +600,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 171
     },
     {
@@ -610,7 +610,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 173
     },
     {
@@ -620,7 +620,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 0,
       "citations_INT": 9,
-      "patents": 12,
+      "pocet patentu": 12,
       "ID": 177
     },
     {
@@ -630,7 +630,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 178
     },
     {
@@ -640,7 +640,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 180
     },
     {
@@ -650,7 +650,7 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 1,
       "citations_INT": 20,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 181
     },
     {
@@ -660,7 +660,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 190
     },
     {
@@ -670,7 +670,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 193
     },
     {
@@ -680,7 +680,7 @@ var patents = {
       "citations_All": 41,
       "citations_CZ": 0,
       "citations_INT": 41,
-      "patents": 22,
+      "pocet patentu": 22,
       "ID": 195
     },
     {
@@ -690,7 +690,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 197
     },
     {
@@ -700,7 +700,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 198
     },
     {
@@ -710,17 +710,17 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 201
     },
     {
       "ico": 24782947,
-      "name": "KULICKOVE SROUBY KURIM",
+      "name": "KSK PRECISE MOTION",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 204
     },
     {
@@ -730,7 +730,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 206
     },
     {
@@ -740,7 +740,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 207
     },
     {
@@ -750,7 +750,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 22,
+      "pocet patentu": 22,
       "ID": 210
     },
     {
@@ -760,7 +760,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 219
     },
     {
@@ -770,7 +770,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 220
     },
     {
@@ -780,7 +780,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 221
     },
     {
@@ -790,17 +790,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 222
     },
     {
       "ico": 25053272,
-      "name": "KAUCUK",
+      "name": "SYNTHOS KRALUPY",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 223
     },
     {
@@ -810,7 +810,7 @@ var patents = {
       "citations_All": 28,
       "citations_CZ": 0,
       "citations_INT": 28,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 225
     },
     {
@@ -820,17 +820,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 227
     },
     {
       "ico": 25077422,
-      "name": "AAA- ZACHRANNA TECHNICKA SLUZBA",
+      "name": "AAA- ZÁCHRANNÁ TECHNICKÁ SLUŽBA",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 228
     },
     {
@@ -840,7 +840,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 229
     },
     {
@@ -850,7 +850,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 230
     },
     {
@@ -860,7 +860,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 232
     },
     {
@@ -870,7 +870,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 233
     },
     {
@@ -880,7 +880,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 235
     },
     {
@@ -890,7 +890,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 238
     },
     {
@@ -900,7 +900,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 239
     },
     {
@@ -910,7 +910,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 5,
       "citations_INT": 0,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 240
     },
     {
@@ -920,7 +920,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 241
     },
     {
@@ -930,7 +930,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 248
     },
     {
@@ -940,7 +940,7 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 252
     },
     {
@@ -950,7 +950,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 254
     },
     {
@@ -960,17 +960,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 255
     },
     {
       "ico": 25181432,
-      "name": "CZ",
+      "name": "ČZ",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 257
     },
     {
@@ -980,17 +980,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 259
     },
     {
       "ico": 25213423,
-      "name": "LEKOV",
+      "name": "FAIVELEY TRANSPORT CZECH",
       "kategorie": "podnik",
       "citations_All": 12,
       "citations_CZ": 6,
       "citations_INT": 6,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 261
     },
     {
@@ -1000,7 +1000,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 273
     },
     {
@@ -1010,7 +1010,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 275
     },
     {
@@ -1020,7 +1020,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 278
     },
     {
@@ -1030,7 +1030,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 279
     },
     {
@@ -1040,7 +1040,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 281
     },
     {
@@ -1050,7 +1050,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 288
     },
     {
@@ -1060,7 +1060,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 290
     },
     {
@@ -1070,7 +1070,7 @@ var patents = {
       "citations_All": 47,
       "citations_CZ": 11,
       "citations_INT": 36,
-      "patents": 41,
+      "pocet patentu": 41,
       "ID": 291
     },
     {
@@ -1080,7 +1080,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 292
     },
     {
@@ -1090,7 +1090,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 293
     },
     {
@@ -1100,7 +1100,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 294
     },
     {
@@ -1110,7 +1110,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 4,
       "citations_INT": 0,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 298
     },
     {
@@ -1120,7 +1120,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 301
     },
     {
@@ -1130,7 +1130,7 @@ var patents = {
       "citations_All": 12,
       "citations_CZ": 7,
       "citations_INT": 5,
-      "patents": 14,
+      "pocet patentu": 14,
       "ID": 302
     },
     {
@@ -1140,7 +1140,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 303
     },
     {
@@ -1150,17 +1150,17 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 307
     },
     {
       "ico": 25300911,
-      "name": "BLASTRAK MORAVA",
+      "name": "KRONER-BLASTRAK-MORAVA",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 308
     },
     {
@@ -1170,17 +1170,17 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 2,
       "citations_INT": 3,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 310
     },
     {
       "ico": 25305034,
-      "name": "CKD BLANSKO ENGINEERING",
+      "name": "ČKD BLANSKO ENGINEERING",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 311
     },
     {
@@ -1190,7 +1190,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 317
     },
     {
@@ -1200,7 +1200,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 318
     },
     {
@@ -1210,7 +1210,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 319
     },
     {
@@ -1220,7 +1220,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 323
     },
     {
@@ -1230,7 +1230,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 324
     },
     {
@@ -1240,7 +1240,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 1,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 330
     },
     {
@@ -1250,17 +1250,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 332
     },
     {
       "ico": 25355015,
-      "name": "SIGMA VYZKUMNY A VYVOJOVY USTAV",
+      "name": "SIGMA VÝYZKUMNÝ A VÝVOJOVÝ ÚSTAV",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 337
     },
     {
@@ -1270,7 +1270,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 1,
       "citations_INT": 6,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 339
     },
     {
@@ -1280,7 +1280,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 353
     },
     {
@@ -1290,17 +1290,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 355
     },
     {
       "ico": 25405756,
-      "name": "STROJIRNA LITVINOV",
+      "name": "STROJÍRNA LITVÍNOV",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 357
     },
     {
@@ -1310,7 +1310,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 358
     },
     {
@@ -1320,7 +1320,7 @@ var patents = {
       "citations_All": 220,
       "citations_CZ": 26,
       "citations_INT": 194,
-      "patents": 52,
+      "pocet patentu": 52,
       "ID": 363
     },
     {
@@ -1330,17 +1330,17 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 0,
       "citations_INT": 9,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 364
     },
     {
       "ico": 25428799,
-      "name": "MOSTECKA UHELNA",
+      "name": "MOSTECKÁ UHELNÁ SPOLEČNOST",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 366
     },
     {
@@ -1350,7 +1350,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 1,
       "citations_INT": 6,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 368
     },
     {
@@ -1360,7 +1360,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 2,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 371
     },
     {
@@ -1370,7 +1370,7 @@ var patents = {
       "citations_All": 13,
       "citations_CZ": 0,
       "citations_INT": 13,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 379
     },
     {
@@ -1380,7 +1380,7 @@ var patents = {
       "citations_All": 25,
       "citations_CZ": 0,
       "citations_INT": 25,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 380
     },
     {
@@ -1390,7 +1390,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 382
     },
     {
@@ -1400,17 +1400,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 383
     },
     {
       "ico": 25508598,
-      "name": "ZKL HANUSOVICE",
+      "name": "ZKL HANUŠOVICE",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 389
     },
     {
@@ -1420,7 +1420,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 390
     },
     {
@@ -1430,7 +1430,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 13,
+      "pocet patentu": 13,
       "ID": 394
     },
     {
@@ -1440,7 +1440,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 2,
       "citations_INT": 6,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 397
     },
     {
@@ -1450,7 +1450,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 411
     },
     {
@@ -1460,7 +1460,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 412
     },
     {
@@ -1470,17 +1470,17 @@ var patents = {
       "citations_All": 33,
       "citations_CZ": 0,
       "citations_INT": 33,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 418
     },
     {
       "ico": 25567110,
-      "name": "MEGA - MERICI ENERGETICKE APARATY",
+      "name": "MEGA - MĚŘÍCÍ ENERGETICKÉ APARÁTY",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 419
     },
     {
@@ -1490,7 +1490,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 422
     },
     {
@@ -1500,7 +1500,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 3,
       "citations_INT": 2,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 427
     },
     {
@@ -1510,7 +1510,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 429
     },
     {
@@ -1520,7 +1520,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 3,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 434
     },
     {
@@ -1530,17 +1530,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 438
     },
     {
       "ico": 25604716,
-      "name": "VUK PANENSKE BREZANY",
+      "name": "VÚK PANENSKÉ BŘEŽANY",
       "kategorie": "podnik",
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 439
     },
     {
@@ -1550,7 +1550,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 440
     },
     {
@@ -1560,7 +1560,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 450
     },
     {
@@ -1570,7 +1570,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 14,
+      "pocet patentu": 14,
       "ID": 455
     },
     {
@@ -1580,7 +1580,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 459
     },
     {
@@ -1590,17 +1590,17 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 460
     },
     {
       "ico": 25702556,
-      "name": "CEPS",
+      "name": "ČEPS",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 463
     },
     {
@@ -1610,7 +1610,7 @@ var patents = {
       "citations_All": 20,
       "citations_CZ": 0,
       "citations_INT": 20,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 469
     },
     {
@@ -1620,7 +1620,7 @@ var patents = {
       "citations_All": 11,
       "citations_CZ": 0,
       "citations_INT": 11,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 470
     },
     {
@@ -1630,17 +1630,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 472
     },
     {
       "ico": 25734555,
-      "name": "IMPEXMETAL DOBRIS",
+      "name": "IMPEXMETAL DOBŘÍŠ",
       "kategorie": "podnik",
       "citations_All": 8,
       "citations_CZ": 2,
       "citations_INT": 6,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 473
     },
     {
@@ -1650,7 +1650,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 474
     },
     {
@@ -1660,7 +1660,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 478
     },
     {
@@ -1670,7 +1670,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 481
     },
     {
@@ -1680,7 +1680,7 @@ var patents = {
       "citations_All": 32,
       "citations_CZ": 0,
       "citations_INT": 32,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 482
     },
     {
@@ -1690,7 +1690,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 484
     },
     {
@@ -1700,7 +1700,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 494
     },
     {
@@ -1710,7 +1710,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 496
     },
     {
@@ -1720,7 +1720,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 497
     },
     {
@@ -1730,7 +1730,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 498
     },
     {
@@ -1740,7 +1740,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 503
     },
     {
@@ -1750,7 +1750,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 510
     },
     {
@@ -1760,7 +1760,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 511
     },
     {
@@ -1770,17 +1770,17 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 523
     },
     {
       "ico": 25877950,
-      "name": "VITKOVICE HEAVY MACHINERY",
+      "name": "VÍTKOVICE HEAVY MACHINERY",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 4,
       "citations_INT": 1,
-      "patents": 13,
+      "pocet patentu": 13,
       "ID": 524
     },
     {
@@ -1790,7 +1790,7 @@ var patents = {
       "citations_All": 37,
       "citations_CZ": 1,
       "citations_INT": 36,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 532
     },
     {
@@ -1800,7 +1800,7 @@ var patents = {
       "citations_All": 15,
       "citations_CZ": 1,
       "citations_INT": 14,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 537
     },
     {
@@ -1810,7 +1810,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 538
     },
     {
@@ -1820,7 +1820,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 554
     },
     {
@@ -1830,7 +1830,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 558
     },
     {
@@ -1840,17 +1840,17 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 1,
       "citations_INT": 2,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 560
     },
     {
       "ico": 25980009,
-      "name": "ACO STAVEBNI PRVKY",
+      "name": "ACO STAVEBNÍ PRVKY",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 561
     },
     {
@@ -1860,17 +1860,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 562
     },
     {
       "ico": 26002990,
-      "name": "JAN KOCNAR-PERFEKTRA",
+      "name": "JAN KOČNAR - PERFEKTRA",
       "kategorie": "podnik",
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 565
     },
     {
@@ -1880,17 +1880,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 21,
+      "pocet patentu": 21,
       "ID": 566
     },
     {
       "ico": 26013797,
-      "name": "DVORAK - SVAHOVE SEKACKY",
+      "name": "DVOŘÁK - SVAHOVÉ SEKAČKY",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 567
     },
     {
@@ -1900,7 +1900,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 569
     },
     {
@@ -1910,7 +1910,7 @@ var patents = {
       "citations_All": 37,
       "citations_CZ": 0,
       "citations_INT": 37,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 571
     },
     {
@@ -1920,7 +1920,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 578
     },
     {
@@ -1930,7 +1930,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 579
     },
     {
@@ -1940,7 +1940,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 580
     },
     {
@@ -1950,7 +1950,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 582
     },
     {
@@ -1960,7 +1960,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 583
     },
     {
@@ -1970,7 +1970,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 586
     },
     {
@@ -1980,7 +1980,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 2,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 587
     },
     {
@@ -1990,17 +1990,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 591
     },
     {
       "ico": 26154927,
-      "name": "KEY INDUSTRY ENGINEERING GROU",
+      "name": "KEY INDUSTRY ENGINEERING GROUP",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 607
     },
     {
@@ -2010,7 +2010,7 @@ var patents = {
       "citations_All": 26,
       "citations_CZ": 0,
       "citations_INT": 26,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 609
     },
     {
@@ -2020,7 +2020,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 610
     },
     {
@@ -2030,27 +2030,27 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 613
     },
     {
       "ico": 26182025,
-      "name": "SIEMENS KOLEJOVA VOZIDLA",
+      "name": "SIEMENS KOLEJOVÁ VOZIDLA",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 617
     },
     {
       "ico": 26195348,
-      "name": "MAGNA EXTERIORS & INTERIORS (BOHEMIA)",
+      "name": "MAGNA EXTERIORS (BOHEMIA)",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 28,
+      "pocet patentu": 28,
       "ID": 621
     },
     {
@@ -2060,7 +2060,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 623
     },
     {
@@ -2070,7 +2070,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 624
     },
     {
@@ -2080,7 +2080,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 625
     },
     {
@@ -2090,7 +2090,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 626
     },
     {
@@ -2100,7 +2100,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 1,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 627
     },
     {
@@ -2110,7 +2110,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 29,
+      "pocet patentu": 29,
       "ID": 629
     },
     {
@@ -2120,7 +2120,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 630
     },
     {
@@ -2130,7 +2130,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 633
     },
     {
@@ -2140,7 +2140,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 634
     },
     {
@@ -2150,7 +2150,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 638
     },
     {
@@ -2160,7 +2160,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 640
     },
     {
@@ -2170,7 +2170,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 643
     },
     {
@@ -2180,17 +2180,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 648
     },
     {
       "ico": 26284812,
-      "name": "MORAVSKE SKLARNY KVETNA",
+      "name": "MORAVSKÉ SKLÁRNY KVĚTNÁ",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 659
     },
     {
@@ -2200,7 +2200,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 4,
       "citations_INT": 3,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 665
     },
     {
@@ -2210,7 +2210,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 3,
       "citations_INT": 0,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 666
     },
     {
@@ -2220,7 +2220,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 673
     },
     {
@@ -2230,27 +2230,27 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 678
     },
     {
       "ico": 26423367,
-      "name": "CESKE LUPKOVE ZAVODY",
+      "name": "ČESKÉ LUPKOVÉ ZÁVODY",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 679
     },
     {
       "ico": 26443082,
-      "name": "AVICENNA Company",
+      "name": "AVICENNA COMPANY",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 682
     },
     {
@@ -2260,7 +2260,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 684
     },
     {
@@ -2270,7 +2270,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 689
     },
     {
@@ -2280,17 +2280,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 690
     },
     {
       "ico": 26493993,
-      "name": "SAZKA SAZKOVA KANCELAR",
+      "name": "SAZKA",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 695
     },
     {
@@ -2300,7 +2300,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 696
     },
     {
@@ -2310,7 +2310,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 699
     },
     {
@@ -2320,7 +2320,7 @@ var patents = {
       "citations_All": 17,
       "citations_CZ": 1,
       "citations_INT": 16,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 701
     },
     {
@@ -2330,17 +2330,17 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 0,
       "citations_INT": 21,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 702
     },
     {
       "ico": 26526239,
-      "name": "SPOLEK PRO EKOLOGICKE BYDLENI - OBCANSKE SDRUZENI",
+      "name": "SPOLEK PRO EKOLOGICKÉ BYDLENÍ",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 704
     },
     {
@@ -2350,7 +2350,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 708
     },
     {
@@ -2360,17 +2360,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 711
     },
     {
       "ico": 26724332,
-      "name": "JISA",
+      "name": "JÍŠA",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 715
     },
     {
@@ -2380,17 +2380,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 719
     },
     {
       "ico": 26763842,
-      "name": "ADVANCED MATERIALS- JTJ",
+      "name": "ADVANCED MATERIALS - JTJ",
       "kategorie": "podnik",
       "citations_All": 12,
       "citations_CZ": 1,
       "citations_INT": 11,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 726
     },
     {
@@ -2400,27 +2400,27 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 27,
+      "pocet patentu": 27,
       "ID": 738
     },
     {
       "ico": 26823357,
-      "name": "VITKOVICE - ENVI",
+      "name": "VÍTKOVICE POWER ENGINEERING",
       "kategorie": "podnik",
       "citations_All": 4,
       "citations_CZ": 1,
       "citations_INT": 3,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 740
     },
     {
       "ico": 26834839,
-      "name": "CESKE TECHNOLOGICKE CENTRUM PRO ANORGANICKE PIGMENTY",
+      "name": "ČESKÉ TECHNOLOGICKÉ CENTRUM PRO ANORGANICKÉ PIGMENTY",
       "kategorie": "podnik",
       "citations_All": 7,
       "citations_CZ": 4,
       "citations_INT": 3,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 745
     },
     {
@@ -2430,7 +2430,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 749
     },
     {
@@ -2440,7 +2440,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 759
     },
     {
@@ -2450,7 +2450,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 764
     },
     {
@@ -2460,7 +2460,7 @@ var patents = {
       "citations_All": 78,
       "citations_CZ": 3,
       "citations_INT": 75,
-      "patents": 19,
+      "pocet patentu": 19,
       "ID": 766
     },
     {
@@ -2470,7 +2470,7 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 767
     },
     {
@@ -2480,7 +2480,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 774
     },
     {
@@ -2490,7 +2490,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 780
     },
     {
@@ -2500,7 +2500,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 783
     },
     {
@@ -2510,7 +2510,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 19,
+      "pocet patentu": 19,
       "ID": 786
     },
     {
@@ -2520,7 +2520,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 787
     },
     {
@@ -2530,7 +2530,7 @@ var patents = {
       "citations_All": 118,
       "citations_CZ": 0,
       "citations_INT": 118,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 788
     },
     {
@@ -2540,7 +2540,7 @@ var patents = {
       "citations_All": 44,
       "citations_CZ": 2,
       "citations_INT": 42,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 796
     },
     {
@@ -2550,7 +2550,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 798
     },
     {
@@ -2560,7 +2560,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 801
     },
     {
@@ -2570,7 +2570,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 803
     },
     {
@@ -2580,7 +2580,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 807
     },
     {
@@ -2590,7 +2590,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 814
     },
     {
@@ -2600,7 +2600,7 @@ var patents = {
       "citations_All": 34,
       "citations_CZ": 0,
       "citations_INT": 34,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 817
     },
     {
@@ -2610,7 +2610,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 820
     },
     {
@@ -2620,7 +2620,7 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 3,
       "citations_INT": 18,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 823
     },
     {
@@ -2630,7 +2630,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 824
     },
     {
@@ -2640,7 +2640,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 826
     },
     {
@@ -2650,7 +2650,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 827
     },
     {
@@ -2660,7 +2660,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 829
     },
     {
@@ -2670,7 +2670,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 831
     },
     {
@@ -2680,7 +2680,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 832
     },
     {
@@ -2690,7 +2690,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 836
     },
     {
@@ -2700,7 +2700,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 841
     },
     {
@@ -2710,7 +2710,7 @@ var patents = {
       "citations_All": 56,
       "citations_CZ": 0,
       "citations_INT": 56,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 842
     },
     {
@@ -2720,17 +2720,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 843
     },
     {
       "ico": 27428796,
-      "name": "SYSTEMY",
+      "name": "SYSTÉMY",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 844
     },
     {
@@ -2740,7 +2740,7 @@ var patents = {
       "citations_All": 19,
       "citations_CZ": 0,
       "citations_INT": 19,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 845
     },
     {
@@ -2750,7 +2750,7 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 846
     },
     {
@@ -2760,7 +2760,7 @@ var patents = {
       "citations_All": 16,
       "citations_CZ": 1,
       "citations_INT": 15,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 848
     },
     {
@@ -2770,7 +2770,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 850
     },
     {
@@ -2780,7 +2780,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 19,
+      "pocet patentu": 19,
       "ID": 855
     },
     {
@@ -2790,7 +2790,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 857
     },
     {
@@ -2800,17 +2800,17 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 865
     },
     {
       "ico": 27659071,
-      "name": "BIO-SKIN",
+      "name": "BIO - SKIN",
       "kategorie": "podnik",
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 869
     },
     {
@@ -2820,7 +2820,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 873
     },
     {
@@ -2830,7 +2830,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 874
     },
     {
@@ -2840,7 +2840,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 879
     },
     {
@@ -2850,17 +2850,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 884
     },
     {
       "ico": 27757951,
-      "name": "PEGAS - NS",
+      "name": "PFN - NS",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 885
     },
     {
@@ -2870,7 +2870,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 888
     },
     {
@@ -2880,7 +2880,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 893
     },
     {
@@ -2890,7 +2890,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 895
     },
     {
@@ -2900,7 +2900,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 896
     },
     {
@@ -2910,7 +2910,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 899
     },
     {
@@ -2920,7 +2920,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 901
     },
     {
@@ -2930,7 +2930,7 @@ var patents = {
       "citations_All": 15,
       "citations_CZ": 0,
       "citations_INT": 15,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 903
     },
     {
@@ -2940,7 +2940,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 907
     },
     {
@@ -2950,7 +2950,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 908
     },
     {
@@ -2960,7 +2960,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 909
     },
     {
@@ -2970,17 +2970,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 911
     },
     {
       "ico": 27890546,
-      "name": "PD SYSTEM",
+      "name": "PDSYSTEMS",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 915
     },
     {
@@ -2990,7 +2990,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 918
     },
     {
@@ -3000,7 +3000,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 919
     },
     {
@@ -3010,7 +3010,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 920
     },
     {
@@ -3020,7 +3020,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 922
     },
     {
@@ -3030,7 +3030,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 932
     },
     {
@@ -3040,7 +3040,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 935
     },
     {
@@ -3050,17 +3050,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 941
     },
     {
       "ico": 28255933,
-      "name": "CEZ ENERGETICKE PRODUKTY",
+      "name": "ČEZ ENERGETICKÉ PRODUKTY",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 945
     },
     {
@@ -3070,7 +3070,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 955
     },
     {
@@ -3080,7 +3080,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 958
     },
     {
@@ -3090,7 +3090,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 1,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 959
     },
     {
@@ -3100,7 +3100,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 960
     },
     {
@@ -3110,7 +3110,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 961
     },
     {
@@ -3120,17 +3120,17 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 0,
       "citations_INT": 9,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 962
     },
     {
       "ico": 28467272,
-      "name": "BAHAL CR",
+      "name": "BAHAL ČR",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 964
     },
     {
@@ -3140,7 +3140,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 966
     },
     {
@@ -3150,7 +3150,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 971
     },
     {
@@ -3160,17 +3160,17 @@ var patents = {
       "citations_All": 105,
       "citations_CZ": 0,
       "citations_INT": 105,
-      "patents": 27,
+      "pocet patentu": 27,
       "ID": 973
     },
     {
       "ico": 28656491,
-      "name": "SE-DA MEDICAL GROUP",
+      "name": "SE-DA MEDICAL GROUP SE",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 981
     },
     {
@@ -3180,7 +3180,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 3,
       "citations_INT": 4,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 983
     },
     {
@@ -3190,7 +3190,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 984
     },
     {
@@ -3200,7 +3200,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 988
     },
     {
@@ -3210,7 +3210,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 994
     },
     {
@@ -3220,7 +3220,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1005
     },
     {
@@ -3230,7 +3230,7 @@ var patents = {
       "citations_All": 22,
       "citations_CZ": 0,
       "citations_INT": 22,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1008
     },
     {
@@ -3240,7 +3240,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1009
     },
     {
@@ -3250,17 +3250,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1023
     },
     {
       "ico": 29253462,
-      "name": "SKODA MACHINE TOOL",
+      "name": "ŠKODA MACHINE TOOL",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1027
     },
     {
@@ -3270,17 +3270,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1045
     },
     {
       "ico": 40527905,
-      "name": "VLCEK GROUP",
+      "name": "VLČEK GROUP",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1046
     },
     {
@@ -3290,7 +3290,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1050
     },
     {
@@ -3300,7 +3300,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1051
     },
     {
@@ -3310,7 +3310,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1058
     },
     {
@@ -3320,7 +3320,7 @@ var patents = {
       "citations_All": 31,
       "citations_CZ": 0,
       "citations_INT": 31,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 1060
     },
     {
@@ -3330,7 +3330,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1061
     },
     {
@@ -3340,17 +3340,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1064
     },
     {
       "ico": 42408415,
-      "name": "NEVA - NEKUT & MuLLER",
+      "name": "NEVA - NEKUT & MÜLLER",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1069
     },
     {
@@ -3360,7 +3360,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1084
     },
     {
@@ -3370,7 +3370,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1086
     },
     {
@@ -3380,7 +3380,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1090
     },
     {
@@ -3390,7 +3390,7 @@ var patents = {
       "citations_All": 18,
       "citations_CZ": 0,
       "citations_INT": 18,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1092
     },
     {
@@ -3400,7 +3400,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1094
     },
     {
@@ -3410,7 +3410,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1095
     },
     {
@@ -3420,7 +3420,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 1101
     },
     {
@@ -3430,7 +3430,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1103
     },
     {
@@ -3440,7 +3440,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 1,
       "citations_INT": 2,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1106
     },
     {
@@ -3450,7 +3450,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 1,
       "citations_INT": 2,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1109
     },
     {
@@ -3460,7 +3460,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 35,
+      "pocet patentu": 35,
       "ID": 1115
     },
     {
@@ -3470,7 +3470,7 @@ var patents = {
       "citations_All": 13,
       "citations_CZ": 0,
       "citations_INT": 13,
-      "patents": 13,
+      "pocet patentu": 13,
       "ID": 1117
     },
     {
@@ -3480,7 +3480,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1119
     },
     {
@@ -3490,17 +3490,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1123
     },
     {
       "ico": 45192847,
-      "name": "VESUVIUS CESKA REPUBLIKA",
+      "name": "VESUVIUS ČESKÁ REPUBLIKA",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1124
     },
     {
@@ -3510,7 +3510,7 @@ var patents = {
       "citations_All": 26,
       "citations_CZ": 2,
       "citations_INT": 24,
-      "patents": 26,
+      "pocet patentu": 26,
       "ID": 1126
     },
     {
@@ -3520,7 +3520,7 @@ var patents = {
       "citations_All": 35,
       "citations_CZ": 4,
       "citations_INT": 31,
-      "patents": 64,
+      "pocet patentu": 64,
       "ID": 1129
     },
     {
@@ -3530,7 +3530,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1132
     },
     {
@@ -3540,17 +3540,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1134
     },
     {
       "ico": 45196940,
-      "name": "VAPENKA VITOSOV",
+      "name": "VÁPENKA VITOŠOV",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1136
     },
     {
@@ -3560,7 +3560,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 1,
       "citations_INT": 6,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1140
     },
     {
@@ -3570,7 +3570,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1147
     },
     {
@@ -3580,7 +3580,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1153
     },
     {
@@ -3590,7 +3590,7 @@ var patents = {
       "citations_All": 15,
       "citations_CZ": 0,
       "citations_INT": 15,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1156
     },
     {
@@ -3600,7 +3600,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1166
     },
     {
@@ -3610,7 +3610,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 2,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1168
     },
     {
@@ -3620,7 +3620,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1170
     },
     {
@@ -3630,7 +3630,7 @@ var patents = {
       "citations_All": 40,
       "citations_CZ": 0,
       "citations_INT": 40,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1172
     },
     {
@@ -3640,7 +3640,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1173
     },
     {
@@ -3650,7 +3650,7 @@ var patents = {
       "citations_All": 38,
       "citations_CZ": 0,
       "citations_INT": 38,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 1174
     },
     {
@@ -3660,7 +3660,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1179
     },
     {
@@ -3670,17 +3670,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1183
     },
     {
       "ico": 46345965,
-      "name": "CESKA ZBROJOVKA",
+      "name": "ČESKÁ ZBROJOVKA",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1188
     },
     {
@@ -3690,7 +3690,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 1,
       "citations_INT": 4,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1190
     },
     {
@@ -3700,7 +3700,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1193
     },
     {
@@ -3710,37 +3710,37 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1196
     },
     {
       "ico": 46356606,
-      "name": "BIOPHARM, VYZKUMNY USTAV BIOFARMACIE A VETERINARNICH LECIV",
+      "name": "BIOPHARM, VÝZKUMNÝ ÚSTAV BIOFARMACIE A VETERINÁRNÍCH LÉČIV",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1197
     },
     {
       "ico": 46357033,
-      "name": "KOVOHUTE CELAKOVICE",
+      "name": "KOVOHUTĚ HOLDING DT",
       "kategorie": "podnik",
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1198
     },
     {
       "ico": 46357351,
-      "name": "LUCEBNI ZAVODY DRASLOVKA",
+      "name": "LUČEBNÍ ZÁVODY DRASLOVKA",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1200
     },
     {
@@ -3750,7 +3750,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 1,
       "citations_INT": 2,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1201
     },
     {
@@ -3760,7 +3760,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 2,
       "citations_INT": 5,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 1204
     },
     {
@@ -3770,7 +3770,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 12,
+      "pocet patentu": 12,
       "ID": 1205
     },
     {
@@ -3780,7 +3780,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1211
     },
     {
@@ -3790,17 +3790,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1216
     },
     {
       "ico": 46680004,
-      "name": "HELUZ CIHLARSKY PRUMYSL",
+      "name": "HELUZ CIHLAŘSKÝ PRŮMYSL",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1221
     },
     {
@@ -3810,7 +3810,7 @@ var patents = {
       "citations_All": 28,
       "citations_CZ": 8,
       "citations_INT": 20,
-      "patents": 51,
+      "pocet patentu": 51,
       "ID": 1224
     },
     {
@@ -3820,7 +3820,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1225
     },
     {
@@ -3830,7 +3830,7 @@ var patents = {
       "citations_All": 197,
       "citations_CZ": 34,
       "citations_INT": 163,
-      "patents": 162,
+      "pocet patentu": 162,
       "ID": 1228
     },
     {
@@ -3840,17 +3840,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1232
     },
     {
       "ico": 46962778,
-      "name": "DT VYHYBKARNA A MOSTARNA",
+      "name": "DT - VÝHYBKÁRNA A STROJÍRNA",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 1242
     },
     {
@@ -3860,7 +3860,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1243
     },
     {
@@ -3870,7 +3870,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1246
     },
     {
@@ -3880,7 +3880,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1247
     },
     {
@@ -3890,17 +3890,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1252
     },
     {
       "ico": 47052511,
-      "name": "R.C.D.",
+      "name": "RCD",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1258
     },
     {
@@ -3910,7 +3910,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1260
     },
     {
@@ -3920,17 +3920,17 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1261
     },
     {
       "ico": 47116307,
-      "name": "SAZKA",
+      "name": "SALEZA",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1263
     },
     {
@@ -3940,7 +3940,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 0,
       "citations_INT": 9,
-      "patents": 12,
+      "pocet patentu": 12,
       "ID": 1265
     },
     {
@@ -3950,7 +3950,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1268
     },
     {
@@ -3960,7 +3960,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1271
     },
     {
@@ -3970,7 +3970,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1278
     },
     {
@@ -3980,7 +3980,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1283
     },
     {
@@ -3990,7 +3990,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 24,
+      "pocet patentu": 24,
       "ID": 1289
     },
     {
@@ -4000,7 +4000,7 @@ var patents = {
       "citations_All": 72,
       "citations_CZ": 1,
       "citations_INT": 71,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1291
     },
     {
@@ -4010,7 +4010,7 @@ var patents = {
       "citations_All": 19,
       "citations_CZ": 0,
       "citations_INT": 19,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 1292
     },
     {
@@ -4020,7 +4020,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1296
     },
     {
@@ -4030,7 +4030,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1301
     },
     {
@@ -4040,7 +4040,7 @@ var patents = {
       "citations_All": 11,
       "citations_CZ": 0,
       "citations_INT": 11,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1303
     },
     {
@@ -4050,7 +4050,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1307
     },
     {
@@ -4060,7 +4060,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1309
     },
     {
@@ -4070,17 +4070,17 @@ var patents = {
       "citations_All": 19,
       "citations_CZ": 1,
       "citations_INT": 18,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1310
     },
     {
       "ico": 48029483,
-      "name": "AZD PRAHA",
+      "name": "AŽD PRAHA",
       "kategorie": "podnik",
       "citations_All": 15,
       "citations_CZ": 5,
       "citations_INT": 10,
-      "patents": 37,
+      "pocet patentu": 37,
       "ID": 1314
     },
     {
@@ -4090,7 +4090,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1317
     },
     {
@@ -4100,17 +4100,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1320
     },
     {
       "ico": 48168041,
-      "name": "ELEKTROCHEMICKE DETEKTORY",
+      "name": "ELEKTROCHEMICKÉ DETEKTORY",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1322
     },
     {
@@ -4120,17 +4120,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1328
     },
     {
       "ico": 48244716,
-      "name": "THK RHYTHM AUTOMOTIVE CZECH a.s.",
+      "name": "THK RHYTHM AUTOMOTIVE CZECH",
       "kategorie": "podnik",
       "citations_All": 72,
       "citations_CZ": 0,
       "citations_INT": 72,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1333
     },
     {
@@ -4140,7 +4140,7 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 0,
       "citations_INT": 21,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1334
     },
     {
@@ -4150,7 +4150,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1335
     },
     {
@@ -4160,7 +4160,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1336
     },
     {
@@ -4170,17 +4170,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1338
     },
     {
       "ico": 48293181,
-      "name": "NAREX CESKA LIPA",
+      "name": "NAREX",
       "kategorie": "podnik",
       "citations_All": 46,
       "citations_CZ": 0,
       "citations_INT": 46,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1339
     },
     {
@@ -4190,7 +4190,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1345
     },
     {
@@ -4200,7 +4200,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1347
     },
     {
@@ -4210,7 +4210,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1348
     },
     {
@@ -4220,7 +4220,7 @@ var patents = {
       "citations_All": 11,
       "citations_CZ": 2,
       "citations_INT": 9,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1353
     },
     {
@@ -4230,7 +4230,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1356
     },
     {
@@ -4240,7 +4240,7 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 6,
+      "pocet patentu": 6,
       "ID": 1357
     },
     {
@@ -4250,7 +4250,7 @@ var patents = {
       "citations_All": 45,
       "citations_CZ": 1,
       "citations_INT": 44,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1359
     },
     {
@@ -4260,7 +4260,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1361
     },
     {
@@ -4270,7 +4270,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1362
     },
     {
@@ -4280,17 +4280,17 @@ var patents = {
       "citations_All": 13,
       "citations_CZ": 0,
       "citations_INT": 13,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1363
     },
     {
       "ico": 49101609,
-      "name": "I.N.T. RADKO KRCMA",
+      "name": "I.N.T.",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1364
     },
     {
@@ -4300,7 +4300,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1366
     },
     {
@@ -4310,17 +4310,17 @@ var patents = {
       "citations_All": 678,
       "citations_CZ": 19,
       "citations_INT": 659,
-      "patents": 309,
+      "pocet patentu": 309,
       "ID": 1369
     },
     {
       "ico": 49240188,
-      "name": "USTAV SILNICNI A MESTSKE DOPRAVY",
+      "name": "DEKRA CZ",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1370
     },
     {
@@ -4330,7 +4330,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1372
     },
     {
@@ -4340,7 +4340,7 @@ var patents = {
       "citations_All": 17,
       "citations_CZ": 2,
       "citations_INT": 15,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1375
     },
     {
@@ -4350,17 +4350,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1376
     },
     {
       "ico": 49615955,
-      "name": "KOTRBATY V.M.Z.",
+      "name": "KOTRBATÝ V.M.Z.",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1390
     },
     {
@@ -4370,7 +4370,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1397
     },
     {
@@ -4380,7 +4380,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 3,
       "citations_INT": 6,
-      "patents": 44,
+      "pocet patentu": 44,
       "ID": 1399
     },
     {
@@ -4390,7 +4390,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 1,
       "citations_INT": 8,
-      "patents": 26,
+      "pocet patentu": 26,
       "ID": 1401
     },
     {
@@ -4400,7 +4400,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1403
     },
     {
@@ -4410,7 +4410,7 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1408
     },
     {
@@ -4420,7 +4420,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1409
     },
     {
@@ -4430,7 +4430,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1410
     },
     {
@@ -4440,27 +4440,27 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1417
     },
     {
       "ico": 49977270,
-      "name": "EN NASTROJE",
+      "name": "EN NÁSTROJE",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1418
     },
     {
       "ico": 60071303,
-      "name": "CZ RETEZY",
+      "name": "ČZ ŘETĚZY",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1420
     },
     {
@@ -4470,7 +4470,7 @@ var patents = {
       "citations_All": 17,
       "citations_CZ": 4,
       "citations_INT": 13,
-      "patents": 40,
+      "pocet patentu": 40,
       "ID": 1421
     },
     {
@@ -4480,7 +4480,7 @@ var patents = {
       "citations_All": 8,
       "citations_CZ": 2,
       "citations_INT": 6,
-      "patents": 19,
+      "pocet patentu": 19,
       "ID": 1422
     },
     {
@@ -4490,37 +4490,37 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 11,
+      "pocet patentu": 11,
       "ID": 1424
     },
     {
       "ico": 60108975,
-      "name": "VYZKUMNY USTAV ORGANICKYCH SYNTEZ",
+      "name": "VÝZKUMNÝ ÚSTAV ORGANICKÝCH SYNTÉZ",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 1,
       "citations_INT": 4,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1425
     },
     {
       "ico": 60109734,
-      "name": "DANISEVSKY",
+      "name": "DANIŠEVSKÝ",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1426
     },
     {
       "ico": 60109980,
-      "name": "WORLD WAY SAFETY",
+      "name": "TUFF BUILT EU",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1428
     },
     {
@@ -4530,7 +4530,7 @@ var patents = {
       "citations_All": 25,
       "citations_CZ": 0,
       "citations_INT": 25,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1431
     },
     {
@@ -4540,7 +4540,7 @@ var patents = {
       "citations_All": 130,
       "citations_CZ": 25,
       "citations_INT": 105,
-      "patents": 149,
+      "pocet patentu": 149,
       "ID": 1433
     },
     {
@@ -4550,7 +4550,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1435
     },
     {
@@ -4560,7 +4560,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 34,
+      "pocet patentu": 34,
       "ID": 1441
     },
     {
@@ -4570,7 +4570,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 17,
+      "pocet patentu": 17,
       "ID": 1443
     },
     {
@@ -4580,7 +4580,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1444
     },
     {
@@ -4590,7 +4590,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 5,
       "citations_INT": 4,
-      "patents": 96,
+      "pocet patentu": 96,
       "ID": 1449
     },
     {
@@ -4600,7 +4600,7 @@ var patents = {
       "citations_All": 54,
       "citations_CZ": 19,
       "citations_INT": 35,
-      "patents": 175,
+      "pocet patentu": 175,
       "ID": 1450
     },
     {
@@ -4610,17 +4610,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1453
     },
     {
       "ico": 60556374,
-      "name": "VOJENSKY TECHNICKY USTAV OCHRANY",
+      "name": "VOJENSKÝ TECHNICKÝ ÚSTAV OCHRANY BRNO",
       "kategorie": "podnik",
       "citations_All": 8,
       "citations_CZ": 0,
       "citations_INT": 8,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1454
     },
     {
@@ -4630,7 +4630,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1457
     },
     {
@@ -4640,17 +4640,17 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 0,
       "citations_INT": 21,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1459
     },
     {
       "ico": 60715286,
-      "name": "CROSS ZLIN",
+      "name": "CROSS ZLÍN",
       "kategorie": "podnik",
       "citations_All": 13,
       "citations_CZ": 0,
       "citations_INT": 13,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1461
     },
     {
@@ -4660,7 +4660,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1462
     },
     {
@@ -4670,7 +4670,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1464
     },
     {
@@ -4680,7 +4680,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1465
     },
     {
@@ -4690,7 +4690,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1466
     },
     {
@@ -4700,7 +4700,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1470
     },
     {
@@ -4710,7 +4710,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1471
     },
     {
@@ -4720,7 +4720,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1472
     },
     {
@@ -4730,7 +4730,7 @@ var patents = {
       "citations_All": 31,
       "citations_CZ": 0,
       "citations_INT": 31,
-      "patents": 30,
+      "pocet patentu": 30,
       "ID": 1477
     },
     {
@@ -4740,17 +4740,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1479
     },
     {
       "ico": 60913037,
-      "name": "SQS VLAKNOVA OPTIKA",
+      "name": "SQS VLÁKNOVÁ OPTIKA",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1483
     },
     {
@@ -4760,7 +4760,7 @@ var patents = {
       "citations_All": 20,
       "citations_CZ": 8,
       "citations_INT": 12,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1487
     },
     {
@@ -4770,7 +4770,7 @@ var patents = {
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1488
     },
     {
@@ -4780,7 +4780,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1489
     },
     {
@@ -4790,7 +4790,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1492
     },
     {
@@ -4800,7 +4800,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1493
     },
     {
@@ -4810,7 +4810,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1495
     },
     {
@@ -4820,7 +4820,7 @@ var patents = {
       "citations_All": 129,
       "citations_CZ": 8,
       "citations_INT": 121,
-      "patents": 91,
+      "pocet patentu": 91,
       "ID": 1499
     },
     {
@@ -4830,7 +4830,7 @@ var patents = {
       "citations_All": 26,
       "citations_CZ": 1,
       "citations_INT": 25,
-      "patents": 53,
+      "pocet patentu": 53,
       "ID": 1500
     },
     {
@@ -4840,7 +4840,7 @@ var patents = {
       "citations_All": 21,
       "citations_CZ": 8,
       "citations_INT": 13,
-      "patents": 41,
+      "pocet patentu": 41,
       "ID": 1501
     },
     {
@@ -4850,7 +4850,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 3,
       "citations_INT": 1,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 1502
     },
     {
@@ -4860,7 +4860,7 @@ var patents = {
       "citations_All": 76,
       "citations_CZ": 4,
       "citations_INT": 72,
-      "patents": 42,
+      "pocet patentu": 42,
       "ID": 1504
     },
     {
@@ -4870,7 +4870,7 @@ var patents = {
       "citations_All": 11,
       "citations_CZ": 0,
       "citations_INT": 11,
-      "patents": 27,
+      "pocet patentu": 27,
       "ID": 1505
     },
     {
@@ -4880,7 +4880,7 @@ var patents = {
       "citations_All": 392,
       "citations_CZ": 4,
       "citations_INT": 388,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 1506
     },
     {
@@ -4890,7 +4890,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1510
     },
     {
@@ -4900,7 +4900,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 3,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1513
     },
     {
@@ -4910,7 +4910,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1522
     },
     {
@@ -4920,7 +4920,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 4,
       "citations_INT": 3,
-      "patents": 144,
+      "pocet patentu": 144,
       "ID": 1524
     },
     {
@@ -4930,17 +4930,17 @@ var patents = {
       "citations_All": 145,
       "citations_CZ": 13,
       "citations_INT": 132,
-      "patents": 99,
+      "pocet patentu": 99,
       "ID": 1525
     },
     {
       "ico": 62024205,
-      "name": "PRIHODA",
+      "name": "PŘÍHODA",
       "kategorie": "podnik",
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1526
     },
     {
@@ -4950,7 +4950,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 0,
       "citations_INT": 7,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1527
     },
     {
@@ -4960,7 +4960,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1534
     },
     {
@@ -4970,7 +4970,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 1,
       "citations_INT": 1,
-      "patents": 38,
+      "pocet patentu": 38,
       "ID": 1535
     },
     {
@@ -4980,17 +4980,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 9,
+      "pocet patentu": 9,
       "ID": 1536
     },
     {
       "ico": 62243136,
-      "name": "UNIPETROL VÝZKUMNÉ VZDĚLÁVACÍ CENTRUM",
+      "name": "UNIPETROL VÝZKUMNĚ VZDĚLÁVACÍ CENTRUM",
       "kategorie": "ovo",
       "citations_All": 9,
       "citations_CZ": 7,
       "citations_INT": 2,
-      "patents": 34,
+      "pocet patentu": 34,
       "ID": 1537
     },
     {
@@ -5000,7 +5000,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1545
     },
     {
@@ -5010,17 +5010,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1551
     },
     {
       "ico": 62623753,
-      "name": "SKODA TRANSPORTATION",
+      "name": "ŠKODA TRANSPORTATION",
       "kategorie": "podnik",
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 19,
+      "pocet patentu": 19,
       "ID": 1552
     },
     {
@@ -5030,17 +5030,17 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1554
     },
     {
       "ico": 62959531,
-      "name": "VOP DOLNI BOUSOV",
+      "name": "VOP DOLNÍ BOUSOV",
       "kategorie": "podnik",
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1558
     },
     {
@@ -5050,7 +5050,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 2,
       "citations_INT": 0,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1559
     },
     {
@@ -5060,7 +5060,7 @@ var patents = {
       "citations_All": 12,
       "citations_CZ": 0,
       "citations_INT": 12,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1561
     },
     {
@@ -5070,7 +5070,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 2,
       "citations_INT": 1,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 1567
     },
     {
@@ -5080,17 +5080,17 @@ var patents = {
       "citations_All": 12,
       "citations_CZ": 0,
       "citations_INT": 12,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1571
     },
     {
       "ico": 63471507,
-      "name": "BIOVENDOR - LABORATORNI MEDICINA",
+      "name": "BIOVENDOR - LABORATORNÍ MEDICÍNA",
       "kategorie": "podnik",
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1582
     },
     {
@@ -5100,7 +5100,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1584
     },
     {
@@ -5110,7 +5110,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1585
     },
     {
@@ -5120,7 +5120,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1589
     },
     {
@@ -5130,7 +5130,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1590
     },
     {
@@ -5140,27 +5140,27 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1591
     },
     {
       "ico": 63509911,
-      "name": "SEDLECKY KAOLIN",
+      "name": "SEDLECKÝ KAOLIN",
       "kategorie": "podnik",
       "citations_All": 8,
       "citations_CZ": 8,
       "citations_INT": 0,
-      "patents": 8,
+      "pocet patentu": 8,
       "ID": 1599
     },
     {
       "ico": 63839172,
-      "name": "CESNET - ZÁJMOVÉ SDRUŽENÍ PRÁVNICKÝCH OSOB",
+      "name": "CESNET",
       "kategorie": "ovo",
       "citations_All": 6,
       "citations_CZ": 1,
       "citations_INT": 5,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1604
     },
     {
@@ -5170,7 +5170,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1609
     },
     {
@@ -5180,7 +5180,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 2,
       "citations_INT": 2,
-      "patents": 7,
+      "pocet patentu": 7,
       "ID": 1611
     },
     {
@@ -5190,17 +5190,17 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1612
     },
     {
       "ico": 64088791,
-      "name": "ROBE SHOW LIGHTING",
+      "name": "ROBE LIGHTING",
       "kategorie": "podnik",
       "citations_All": 82,
       "citations_CZ": 0,
       "citations_INT": 82,
-      "patents": 23,
+      "pocet patentu": 23,
       "ID": 1614
     },
     {
@@ -5210,7 +5210,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1620
     },
     {
@@ -5220,7 +5220,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 0,
       "citations_INT": 3,
-      "patents": 2,
+      "pocet patentu": 2,
       "ID": 1629
     },
     {
@@ -5230,7 +5230,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1632
     },
     {
@@ -5240,7 +5240,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1640
     },
     {
@@ -5250,17 +5250,17 @@ var patents = {
       "citations_All": 10,
       "citations_CZ": 0,
       "citations_INT": 10,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1641
     },
     {
       "ico": 64949681,
-      "name": "T - MOBILE CZECH REPUBLIC",
+      "name": "T-MOBILE CZECH REPUBLIC",
       "kategorie": "podnik",
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1646
     },
     {
@@ -5270,7 +5270,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1650
     },
     {
@@ -5280,7 +5280,7 @@ var patents = {
       "citations_All": 2,
       "citations_CZ": 0,
       "citations_INT": 2,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1651
     },
     {
@@ -5290,7 +5290,7 @@ var patents = {
       "citations_All": 9,
       "citations_CZ": 0,
       "citations_INT": 9,
-      "patents": 15,
+      "pocet patentu": 15,
       "ID": 1659
     },
     {
@@ -5300,7 +5300,7 @@ var patents = {
       "citations_All": 49,
       "citations_CZ": 9,
       "citations_INT": 40,
-      "patents": 51,
+      "pocet patentu": 51,
       "ID": 1660
     },
     {
@@ -5310,7 +5310,7 @@ var patents = {
       "citations_All": 5,
       "citations_CZ": 0,
       "citations_INT": 5,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1661
     },
     {
@@ -5320,7 +5320,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 2,
       "citations_INT": 2,
-      "patents": 20,
+      "pocet patentu": 20,
       "ID": 1662
     },
     {
@@ -5330,7 +5330,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 0,
       "citations_INT": 1,
-      "patents": 3,
+      "pocet patentu": 3,
       "ID": 1663
     },
     {
@@ -5340,7 +5340,7 @@ var patents = {
       "citations_All": 3,
       "citations_CZ": 3,
       "citations_INT": 0,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1666
     },
     {
@@ -5350,7 +5350,7 @@ var patents = {
       "citations_All": 7,
       "citations_CZ": 1,
       "citations_INT": 6,
-      "patents": 10,
+      "pocet patentu": 10,
       "ID": 1668
     },
     {
@@ -5360,7 +5360,7 @@ var patents = {
       "citations_All": 14,
       "citations_CZ": 2,
       "citations_INT": 12,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1669
     },
     {
@@ -5370,7 +5370,7 @@ var patents = {
       "citations_All": 24,
       "citations_CZ": 2,
       "citations_INT": 22,
-      "patents": 18,
+      "pocet patentu": 18,
       "ID": 1670
     },
     {
@@ -5380,7 +5380,7 @@ var patents = {
       "citations_All": 14,
       "citations_CZ": 5,
       "citations_INT": 9,
-      "patents": 21,
+      "pocet patentu": 21,
       "ID": 1671
     },
     {
@@ -5390,7 +5390,7 @@ var patents = {
       "citations_All": 54,
       "citations_CZ": 8,
       "citations_INT": 46,
-      "patents": 49,
+      "pocet patentu": 49,
       "ID": 1672
     },
     {
@@ -5400,7 +5400,7 @@ var patents = {
       "citations_All": 150,
       "citations_CZ": 48,
       "citations_INT": 102,
-      "patents": 367,
+      "pocet patentu": 367,
       "ID": 1674
     },
     {
@@ -5410,17 +5410,17 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 2,
       "citations_INT": 2,
-      "patents": 66,
+      "pocet patentu": 66,
       "ID": 1676
     },
     {
       "ico": 70994226,
-      "name": "CESKE DRAHY",
+      "name": "ČESKÉ DRÁHY",
       "kategorie": "podnik",
       "citations_All": 6,
       "citations_CZ": 0,
       "citations_INT": 6,
-      "patents": 1,
+      "pocet patentu": 1,
       "ID": 1677
     },
     {
@@ -5430,7 +5430,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 0,
       "citations_INT": 4,
-      "patents": 17,
+      "pocet patentu": 17,
       "ID": 1681
     },
     {
@@ -5440,7 +5440,7 @@ var patents = {
       "citations_All": 1,
       "citations_CZ": 1,
       "citations_INT": 0,
-      "patents": 4,
+      "pocet patentu": 4,
       "ID": 1682
     },
     {
@@ -5450,7 +5450,7 @@ var patents = {
       "citations_All": 4,
       "citations_CZ": 4,
       "citations_INT": 0,
-      "patents": 5,
+      "pocet patentu": 5,
       "ID": 1683
     }
   ]
