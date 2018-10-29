@@ -572,9 +572,9 @@
         bolds = result.length;
         result.push('IČO: ' + d.ico)
         result.push('Citací: ' + d.citations_All)
-        result.push(' domácí: ' + d.citations_CZ)
-        result.push(' zahraniční: ' + d.citations_INT)
-        result.push('Patentů: ' + d.patents)
+        result.push('domácí: ' + d.citations_CZ)
+        result.push('zahraniční: ' + d.citations_INT)
+        result.push('Patentů: ' + d['pocet patentu'])
 
         let minHeight = (newh / 2) - ((11 / 2) * result.length)
 
