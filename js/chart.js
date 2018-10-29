@@ -164,7 +164,7 @@
               class: 'footnote',
               width: width
           })
-          footnote.html('Pozn.: Do analýzy jsou zařazeny žádosti o patent zaznamenané v databázi <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: Vlastní výpočty na základě <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a></div>')
+          footnote.html('Pozn.: Do analýzy jsou zařazeny žádosti o patent zaznamenané v databázi <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: Vlastní výpočty na základě <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a>.</div>')
           chartcontainer.append(footnote)
 
           //Main function for drawing the treemap and legend
@@ -239,7 +239,7 @@
       }
 
       function DrawLegend() {
-          distances = [0, 100, 230, 400].map(x => x * (width / 757.8))
+          distances = [0, 100, 250, 450].map(x => x * (width / 757.8))
 
           var svg = d3.select("#legendDiv")
               .append("svg")
@@ -572,8 +572,8 @@
         bolds = result.length;
         result.push('IČO: ' + d.ico)
         result.push('Citací: ' + d.citations_All)
-        result.push(' z Česka: ' + d.citations_CZ)
-        result.push(' ze zahraničí: ' + d.citations_INT)
+        result.push(' domácí: ' + d.citations_CZ)
+        result.push(' zahraniční: ' + d.citations_INT)
         result.push('Patentů: ' + d.patents)
 
         let minHeight = (newh / 2) - ((11 / 2) * result.length)
