@@ -5,6 +5,8 @@ var waypoints;
 const shareLink = 'https://vitekzkytek.github.io/PatentCitations2/'
 const shareTitle = 'Kde jsou nejcitovanější patenty?'
 
+const fbLink = 'https://www.facebook.com/ideacerge/posts/875237399334772'
+
 function loadJS() {
 
     //sortMenudata();
