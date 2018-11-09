@@ -11,10 +11,18 @@
 
       var filters = {
           All: "Všechny",
-          top100: "Prvních 100",
-          top50: "Prvních 50",
-          top20: "Prvních 20"
+          top100: "Nej 100",
+          top50: "Nej 50"
+          //top20: "Prvních 20"
       };
+
+      var periods = {
+        All: "Všechny",
+        y00_06: "2000-06",
+        y07_14: "2007-14"
+      };
+      var selPeriod = 'All';
+      
       var filterInst = 'All'
 
       const InstTypes = ['podnik', 'avcr', 'vvs', 'ovo'];
@@ -47,9 +55,10 @@
       //Function used in body onload, generating divs for the chart, select and legend
       function DrawAllCharts() {
           //Main chartcontainer = controls + treemap
-          height = ($(window).height() * 0.85) - 110;
+          footheight = 140
+          height = ($(window).height() * 0.85) - footheight;
           //width = Math.min($(window).width() * 0.6, 880) //no chart margin
-          width = Math.min(Math.max($(window).width() * 0.6,700),1000)
+          width = Math.min(Math.max($(window).width() * 0.6,800),1000)
           svgmargin = 120
 
           chartcontainer = $('#app .chartcontainer')
@@ -108,7 +117,7 @@
           function formatSelect2(node) {
             scolor = (node.displayed) ? 'ddlvisible' : 'ddlunvisible'
 
-            if (filterInst !== 'All') {
+            if ((filterInst !== 'All') || (selPeriod !== 'All')) {
                 if (typeof node.ico !== 'undefined') {
 
                     if ($('#ico'+node.ico).length == 0) {
@@ -127,7 +136,7 @@
 
           $('#ddlSearch').on('change', changeSearchDDL)
           $('#ddlSearch').select2({
-              data: menudata,
+              data: menudata[selPeriod],
               width: width - title.outerWidth() - svgmargin,
               allowClear: true,
               matcher: matchCustom,
@@ -144,7 +153,11 @@
           controls.append(switchers)
 
           // Generate Filtering switcher
-          switchers.append(generateSwitcher('swFilters', filters, 'filterInstitutions', 'Počet institucí: '))
+          switchers.append(generateSwitcher('swFilters', filters, 'filterInstitutions', 'Organizace: '))
+
+          // Generate years switcher
+          switchers.append(generateSwitcher('swYears', periods, 'filterYears', 'Roky: '))
+
 
           //Generate Citations switcher
           switchers.append(generateSwitcher('swSumBy', sumBys, 'showCitations', 'Citace: '))
@@ -162,7 +175,8 @@
           }))
           footnote = $('<div />', {
               class: 'footnote',
-              width: width
+              width: width,
+              //style: 'top: -' + footheight + 'px'
           })
           footnote.html('Pozn.: Do analýzy jsou zařazeny žádosti o patent zaznamenané v databázi <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a> (Spring 2016 edition) od roku 2000. Zobrazeny jsou <a class="modalLink" onclick="showModal(\'modOrganizace\')">organizace</a> se sídlem na území Česka. Rozlišujeme čtyři <a class="modalLink" onclick="showModal(\'modSektory\')">sektory</a>. Stáhněte si podkladová <a class="modalLink" href="xls/DataOrganizace.xlsx" >data za organizace</a> anebo <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">data za nejcitovanější patenty</a>. Zdroj: Vlastní výpočty na základě <a class="modalLink"  onclick="showModal(\'modPatstat\')">PATSTAT</a>.</div>')
           chartcontainer.append(footnote)
@@ -244,7 +258,7 @@
           var svg = d3.select("#legendDiv")
               .append("svg")
               .attr("width", width)
-              .attr("height", 30)
+              .attr("height", 25)
               .attr('class', 'legend')
               .attr('id', 'legendSvg')
 
@@ -264,7 +278,7 @@
                   return d.id
               })
               .attr('transform', function (d, i) {
-                  return 'translate(' + (10 + distances[i]) + ',0)'
+                  return 'translate(' + (10 + distances[i]) + ',5)'
               })
               .on('click', function (d) {
                   ChangeInstType(d);
@@ -293,8 +307,8 @@
               children: []
           }
 
-          for (idx in data.children) {
-              subnode = data.children[idx]
+          for (idx in data[selPeriod].children) {
+              subnode = data[selPeriod].children[idx]
 
               if (selectedInstTypes.includes(subnode.kategorie)) {
                   if (subnode[sumBy] > 0) {
@@ -530,7 +544,7 @@
         val = $('#ddlSearch').val();
         hideAll();
         if (val !== '') {
-            dmenu = menudata.find(x => x.id == val)
+            dmenu = menudata[selPeriod].find(x => x.id == val)
             if ($('#ico' + dmenu.ico).length) {
                 sel = d3.select('#ico' + dmenu.ico);//text.replace(/ /g, '_'))
                 el = sel._groups[0][0]
@@ -652,7 +666,7 @@
 
       }
       function hideDetailBox(ico) {
-          dmenu = menudata.find(x => x.id == ico)
+          dmenu = menudata[selPeriod].find(x => x.id == ico)
 
           sel = d3.select('#ico' + dmenu.ico);//text.replace(/ /g, '_'))
           el = sel._groups[0][0]
@@ -713,3 +727,11 @@
           filterInst = variable;
           DrawTransition();
       }
+
+      function filterYears(variable) {
+        $('#swYears .switchActive').removeClass('switchActive');
+        switchEl = $('#swYears #sw' + variable).addClass('switchActive');
+
+        selPeriod = variable;
+        DrawTransition();
+    }

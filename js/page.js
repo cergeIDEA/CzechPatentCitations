@@ -2,6 +2,8 @@ var sizes = {}
 
 var waypoints;
 
+const shareLink = 'https://vitekzkytek.github.io/PatentCitations2/'
+const shareTitle = 'Kde jsou nejcitovanější patenty?'
 
 function loadJS() {
 
@@ -20,6 +22,21 @@ function loadJS() {
     shareLinks();
 
 }
+
+function shareLinks() {
+    //Facebook
+    $('#fb').attr('href',"https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(shareLink));
+
+    //Twitter
+    $('#tw').attr('href',"https://twitter.com/intent/tweet?text=" + encodeURI(shareTitle + ' ' + shareLink) );
+
+    //LinkedIn
+    $('#li').attr('href',"http://www.linkedin.com/shareArticle?mini=true&url=" + encodeURI(shareLink) + "&title=" + encodeURI(shareTitle))
+
+    $('#mail').attr('href',"mailto:?subject="+ encodeURIComponent(shareTitle) + "&body=" + encodeURIComponent(shareLink) )
+    
+}
+
 
 function checkResolution() {
     w = $(window).width()
@@ -132,6 +149,11 @@ function waypointing() {
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
 
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
+
             //Draw
             DrawTransition();
             
@@ -148,6 +170,11 @@ function waypointing() {
             filterInst = 'All'
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
+
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
 
             //Draw
             DrawTransition();
@@ -171,6 +198,11 @@ function waypointing() {
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
 
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
+            
             //Draw
             DrawTransition();
         } else {
@@ -186,6 +218,11 @@ function waypointing() {
             filterInst = 'All'
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
+            
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
 
             //Draw
             DrawTransition();
@@ -206,6 +243,11 @@ function waypointing() {
             filterInst = 'All'
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
+            
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
 
             //Draw
             DrawTransition();
@@ -222,6 +264,11 @@ function waypointing() {
             filterInst = 'All'
             $('#swSumBy .switchActive').removeClass('switchActive');
             $('#swSumBy #swAll').addClass('switchActive')
+
+            //Years
+            selPeriod = 'All'
+            $('#swYears .switchActive').removeClass('switchActive');
+            $('#swYears #swAll').addClass('switchActive')
 
             //Draw
             DrawTransition();
@@ -244,6 +291,13 @@ function getSizes() {
     sizes.chart.width = (0.7*sizes.screen.height > 500) ? 0.7*sizes.screen.height : 500 ;
     sizes.chart.height = 0.7*sizes.screen.height;// +50;
 
+}
+
+
+function showCopyLink() {
+    $('#myurl').val(shareLink);
+    showModal('modCopyLink')
+    //copyLink();
 }
 
 function MoveOn(selector) {

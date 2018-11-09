@@ -1,4 +1,4 @@
-var weblink = 'https://ideaapps.cerge-ei.cz/PredatoriMistni/' //TODO smaz az budu znat adresu!!!!
+﻿var weblink = 'https://ideaapps.cerge-ei.cz/PredatoriMistni/' //TODO smaz az budu znat adresu!!!!
 var bitly = 'https://bit.ly/2s4oahD'
 var webtitle = "Kde se nejvíce publikuje v predátorských a místních časopisech?";
 
@@ -210,13 +210,6 @@ function descBoxDefault() {
 
 function closeBox(selector) {
     $(selector + ' #ddlSearch').val('').change();
-}
-
-
-function showCopyLink() {
-    $('#myurl').val(weblink);
-    showModal('modCopyLink')
-    //copyLink();
 }
 
 function copyLink(copyinput,linkspan) {

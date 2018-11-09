@@ -56,7 +56,7 @@
                 </div>
 
                 <p style="line-height: .5">Think-tank IDEA při Národohospodářském ústavu AV ČR</p>
-                <p style="line-height: .5">Studie č. XXX/2018</p>
+                <p style="line-height: .5">Studie č. 14/2018</p>
                 <p style="line-height: .5">Listopad 2018</p>
                 <br />
                 <img src="img/down-arrow2.svg" onclick="MoveOn('ProcSledovat')" class='arrow' title="Posunujte kolečkem myši dolů" />
@@ -83,9 +83,6 @@
         <div id="ProcSledovat" class="flow flowtext">
             <div class="content">
                 <h3>Proč sledovat citace patentů?</h3>
-                <p>Zmapovali jsme celosvětové <a class="modalLink" onclick="showModal('modCitovanost')">citace
-                        patentů</a> v navazujících patentech, jejichž vlastníky jsou <a class="modalLink" onclick="showModal('modOrganizace')">organizace</a>
-                    se sídlem na území Česka, a jejichž žádosti mají datum podání od roku 2000.</p>
                 <p>Citační ohlas odráží  <a class="modalLink" onclick="showModal('modVyznamPatentu')">význam
                         patentu</a>. Patent, na který nic dalšího nenavazuje, nenechal ve vývoji technologií žádnou
                     stopu. Naopak patent s mnoha následnými citacemi měl velký dopad.</p>
@@ -94,13 +91,14 @@
                     prověřený léty praxe. Nicméně v oblasti hodnocení výzkumu v českém kontextu je to novinka.</p>
                 <p>Jen některé výsledky aplikovaného výzkumu jsou patentované. Na základě citovanosti patentů 
                     je možné dělat závěry pouze konkrétně o patentovaném, nikoliv aplikovaném výzkumu jako celku.</p>
-                <p>Řada organizací provádí užitečný výzkum, který v patentových statistikách vidět není. 
-                    Proto je třeba se vyhnout unáhleným závěrům o těch, které vykazují malý počet patentových citací, protože to může mít různé příčiny. </p>
+                <p>Zmapovali jsme celosvětové <a class="modalLink" onclick="showModal('modCitovanost')">citace
+                    patentů</a> v navazujících patentech, jejichž vlastníky jsou <a class="modalLink" onclick="showModal('modOrganizace')">organizace</a>
+                    se sídlem na území Česka, a jejichž žádosti mají datum podání od roku 2000.</p>                
                 <p>Citovanost patentů jsme spočítali z individuálních údajů databáze <a class="modalLink" onclick="showModal('modPatstat')">PATSTAT</a> (Spring 2016 edition).
                      Prezentované výsledky jsou unikátní a nikde jinde je nenajdete.</p>
                 <p>Závěry této studie by měly zajímat nejen manažery výzkumu, potenciální partnery anebo investory, ale i tvůrce inovačních politik. <a class="modalLink" onclick="showModal('modHodnoceni')">Hodnocení
                         výzkumu</a>, na který nepasují bibliometrické analýzy, se totiž ukazuje jako zvláště obtížné.</p>
-                <p>Navazujeme na <a class="modalLink" onclick="showModal('modPredchoziStudie')">předchozí studie IDEA</a>
+                <p>Navazujeme na <a class="modalLink" onclick="showModal('modPredchoziStudie')">předchozí studie think-tanku IDEA</a>
                     na příbuzná témata.</p>
             </div>
         </div>
@@ -113,13 +111,13 @@
         <div id="empt-CoToUmi" class="fullscreen">
             <div class="content">
                 <div class="box whitebox">
-                    <h4>Co to umí?</h4>
+                    <h4>Co aplikace umí?</h4>
                     <p>Obdélníky zobrazují jednotlivé <a class="modalLink" onclick="showModal('modOrganizace')">organizace</a>.
                         Velikost obdélníku odpovídá počtu <a class="modalLink" onclick="showModal('modCitovanost')">citací patentů</a> vlastněných danou organizací. Barvy obdélníků odlišují
                         <a class="modalLink" onclick="showModal('modSektory')">sektory</a>.</p>
-                    <p>Konkrétní organizaci lze navíc vyhledat v roletkovém menu podle názvu anebo IČO nad grafem anebo
+                    <p>Konkrétní organizaci lze navíc vyhledat v roletkovém menu podle jejího názvu anebo IČO nad grafem anebo
                         najetím kurzoru přímo v grafu. Následně se zobrazí okénko s podrobnostmi.</p>
-                    <p>Klikáním na legendu vyberete různé sektory, zobrazíte pouze organizace s nejvíce citacemi anebo
+                    <p>Klikáním na legendu vyberete různé sektory, zobrazíte pouze organizace s největším počtem citací, přepnete mezi <a class="modalLink" onclick="showModal('modObdobi')">obdobími</a> anebo
                         zúžíte výběr na <a class="modalLink" onclick="showModal('modCeskeZahranicniCitace')">domácí či
                             zahraniční citace</a>, čímž si můžete vytvořit vlastní srovnání.</p>
                     <p>Pod grafem jsou odkazy na vysvětlivky a pro stažení kompletních podkladových <a class="modalLink" href="xls/DataOrganizace.xlsx" >dat za organizace</a> anebo výpisu <a class="modalLink" href="xls/NejcitovanejsiPatenty.xlsx">dat za nejcitovanější patenty</a>.</p>
@@ -138,23 +136,24 @@
         <div id="CoMitNaPameti" class="flow flowtitle">
             <div class="content">
                 <h4>Co mít na paměti?</h4>
-                <p>Citace zpravidla začnou nabíhat až po delší době. Navíc patentové statistiky jsou zveřejňovány se
+                <p>Citace nabíhají postupně. Navíc patentové statistiky jsou zveřejňovány se
                     zpožděním. Převážná většina hodně citovaných patentů tudíž pochází z minulého desetiletí.
                     Prezentované výsledky poskytují pohled do minulosti.</p>
                 <p>Patenty jsou vhodné k ochraně jen určitého druhu kodifikovaných znalostí, a to zejména v chemických
                     a technických oborech. Pro řadu jiných oborů jsou patenty jako nástroj ochrany duševního
-                    vlastnictví nevýznamné.</p>
+                    vlastnictví nevýznamné. Podobně i citovanost patentů se liší mezi obory.</p>
                 <p>Patentové statistiky jsou jen částečně harmonizovány. Zejména záznamy o vlastnících patentů obsahují
                     nepřesnosti a mohou být i neúplné. S velkou námahou jsme data vyčistili, ale je třeba počítat s
                     určitou chybou měření.</p>
-                <p>Názvy vlastníků umožňují rozlišit ústavy Akademie věd ČR, ale pro příliš mnoho patentů bohužel
-                    nikoliv jednotlivé fakulty vysokých škol. Srovnáváme tudíž organizace různé velikosti.</p>
+                <p>Řada organizací provádí užitečný výzkum, který v patentových statistikách vidět není. 
+                    Proto je třeba se vyhnout unáhleným závěrům o těch, které vykazují malý počet patentových citací,
+                    protože to může mít různé příčiny.</p>
+                <p>Názvy vlastníků umožňují rozlišit jednotlivé ústavy Akademie věd ČR, ale pro příliš mnoho patentů bohužel
+                    nejsou uvedeny jednotlivé fakulty vysokých škol. Srovnáváme tudíž organizace různých velikostí.</p>
                 <p>Z malých rozdílů v počtu citací mezi organizacemi tudíž není radno dělat velké závěry. Doporučujeme
                     zaměřit se na vysoká čísla a celkový obrázek, který ze srovnání vyplývá.</p>
                 <p>Pokud má organizace patenty, ale žádné citace, její název je k nalezení v roletkovém menu, nicméně
-                    na grafu se nezobrazuje. Při jejím výběru se okénko s podrobnosti zobrazí v mimo graf.</p>
-                <p>Domácí citace tvoří méně než desetinu celkového počtu citací, takže výsledný obrázek zásadně
-                    neovlivňují, i když pro některé organizace je jejich podíl nezanedbatelný.</p>
+                    na grafu se nezobrazuje. Při jejím výběru se okénko s podrobnostmi zobrazí v mimo graf.</p>
             </div>
         </div>
         <div class="fixempty fullscreen"></div>
@@ -166,8 +165,11 @@
                         dvoupětinový podíl na celkových citacích. Pouze dvanáct organizací nasbíralo více než sto
                         citací.</p>
                     <p>Nejcitovanější patenty nemají jenom podniky. Mezi nejlepší organizace se prosadilo i několik
-                        ústavů Akademie věd ČR a vysokých škol.</p>
-                    <p>Drtivá většina organizací má však jen několik citací anebo žádné.</p>
+                        ústavů Akademie věd ČR a veřejných vysokých škol. Drtivá většina organizací má však jen několik citací anebo vůbec žádné.</p>
+                    <p>Mezi roky 2000-2006 a 2007-2014 se pořadí přirozeně promíchalo. Soubor nejlepších organizací se 
+                        podstatně více změnil v podnikovém než výzkumném sektoru.</p>
+                    <p>Domácí citace tvoří méně než desetinu celkového počtu citací, takže výsledný obrázek zásadně neovlivňují,
+                         i když pro některé organizace je jejich podíl nezanedbatelný.</p>
                 </div>
             </div>
         </div>
@@ -187,8 +189,8 @@
                         Akademie věd ČR s převážně biotechnologickým a chemickým zaměřením.</p>
                     <p>Jako nejlepší vychází Ústav experimentální botaniky AV ČR. Další tři ústavy Akademie věd ČR jsou
                         v první desítce, a to včetně Ústavu organické chemie a biochemie AV ČR, který má velké příjmy z
-                        komercionalizace objevů profesora Antonína Holého z osmdesátých a devadesátých let.</p>
-                    <p>Mezi vysokými školami posbírala díky nanotechnologiím nejvíce citací jinak menší Technická
+                        komercionalizace objevů <a class="modalLink" onclick="showModal('modHoly')">profesora Antonína Holého</a>.</p>
+                    <p>Mezi veřejnými vysokými školami posbírala díky nanotechnologiím nejvíce citací velikostí menší Technická
                         univerzita v Liberci. Následuje České vysoké učení technické v Praze a v těsném závěsu Univerzita Palackého v Olomouci.</p>
                     <p>Akademie věd ČR jako celek dosahuje většího počtu patentových citací než všechny veřejné vysoké
                         školy dohromady. Přitom z hlediska počtu výzkumných pracovníků i rozpočtu je podstatně menší.</p>
@@ -215,13 +217,13 @@
                         Jako třetí v pořadí vychází liberecký Elmarco, což je menší podnik v domácím
                         vlastnictví, který prorazil se zařízeními na výrobu nanovláken.</p>
                     <p>Jinak však mezi nejlepšími převažují velké podniky pod zahraniční kontrolou. Další domácí
-                        podniky, které se alespoň těsně vměstnaly do první desítky, jsou Spolchemie a ROBE lightning.</p>
-                    <p>Z malých podniků s dobrými výsledky si zaslouží vypíchnout třeba CODA DEVELOPMENT, Narex,
+                        podniky, které se alespoň těsně vměstnaly do první desítky, jsou Spolchemie a ROBE Lighting.</p>
+                    <p>Z malých podniků s dobrými výsledky si zaslouží vyzdvihnout třeba CODA DEVELOPMENT, Narex,
                         Optaglio, Biotech progress, Agra Group anebo Supersprox.</p>
                     <p>Některé i z těch nejlepších jako PLIVA – Lachema, IVAX Pharmaceuticals, IVAX – CR, Contipro
                         Biotech, BHS Holice anebo FAB už patří mezi formálně zaniklé subjekty.</p>
                     <p>Na čele chybí pobočky nadnárodních firem, které mají v Česku rozsáhlé výzkumné kapacity,
-                        jako Honeywell, Robert Bosch anebo Siemens, avšak nové technologie si patrně patentují pod hlavičkou zahraniční matky.</p>
+                        jako je Honeywell, Robert Bosch anebo Siemens, avšak nové technologie si patrně patentují pod hlavičkou zahraniční matky.</p>
                 </div>
             </div>
         </div>
@@ -231,11 +233,11 @@
                 <h3>Kvalita vs. kvantita patentů</h3>
                 <p>Abychom zjistili citace, musíme mít přirozeně i data za patenty. Nabízí se počty citací a patentů
                     podělit. Srovnání tohoto indikátoru mezi sektory ukazuje obrázek níže.</p>
-                <p>Poměr citací na patent ukazuje jejich průměrnou kvalitu. Zároveň to naznačuje, jestli se skrze
+                <p>Poměr citací na patent ukazuje jejich průměrnou kvalitu. Zároveň to naznačuje, zda se skrze
                     patenty chrání technologie, které si to opravdu zaslouží, anebo jestli se nepatentuje pouze kvůli hodnocení výzkumu.</p>
                 <p>Akademie věd ČR má třikrát více citací na patent než veřejné vysoké školy a dokonce sedmkrát více
                     než ostatní výzkumné organizace. Podnikatelský sektor vychází
-                    ze zhruba jednou citací na patent mezi oběma extrémy.</p>
+                    se zhruba jednou citací na patent mezi oběma protipóly.</p>
                 <p>Přitom občas zaznívá, jako v nedávné <a href="https://www.nku.cz/cz/pro-media/tiskove-zpravy/vydaje-na-vedu-rostou--na-evropu-v-inovacich-presto-stale-vice-ztracime--problem-je-v-systemu-podpory-id9787/"
                         target="_blank">zprávě NKÚ</a>, že potřebujeme více patentů. Špičkového v praxi uplatnitelného
                     výzkumu není nikdy dost. Avšak rozhodující je kvalita, nikoliv kvantita patentů!</p>
@@ -249,7 +251,7 @@
         <div id="conclusion" class="flow flowtext">
             <div class="content">
                 <h3>Pár slov závěrem</h3>
-                <p>Patentovaný a potažmo aplikovaný výzkum je těžké hodnotit. Jeho relevance často závisí na faktorech, které výzkumník nemůže ovlivnit, a které s kvalitou provedeného výzkumu nemusí nijak souviset.</p>
+                <p>Patentovaný a potažmo aplikovaný výzkum je těžké hodnotit. Jeho relevance často závisí na faktorech, které výzkumník nemůže ovlivnit a které s kvalitou provedeného výzkumu nemusí nijak souviset.</p>
                 <p>Citace patentů jsou jeden z mála ukazatelů, který je poměrně objektivní, nezávisí až tolik na těchto externích faktorech a zároveň je souměřitelný napříč různými typy organizací.</p>
                 <p>Navíc patentové statistiky se řídí dlouhou dobu zaběhnutými pravidly patentových úřadů a podobně jako časopisecké publikace jsou veřejně dostupné v neanonymní podobě.</p>
                 <p>Do budoucna se nabízí možnost výpočty očistit o sebecitace v patentech stejných organizací, zpracovat i jména jednotlivých vynálezců a v neposlední řadě výsledky rozdělit podle oborů.</p>
@@ -281,7 +283,7 @@
                 </div>
                 <p class="footcredits">Doporučená citace: <a class="modalLink" onclick="showModal('modMy')">Sidorkin, O. a
                         Srholec, M.</a> (2018) Kde vznikají nejcitovanější patenty? Studie
-                    XXX/2018.
+                    14/2018.
                     Think-tank IDEA při NHÚ AV ČR.</p>
 
                 <p class="footcredits">Za vývoj interaktivní aplikace patří velký dík také Paulíně Očkajové a Vítkovi Macháčkovi.</p> 
@@ -302,7 +304,7 @@
                     <h3>Citace patentů</h3>
                     <p>Citace článků ve vědeckých časopisech se tradičně používají v bibliometrických analýzách. Stejné postupy lze použít i pro patenty.</p>
                     <p>Patentové úřady citace v patentech redigují, takže jsou dokonce objektivnější než citace v článcích.</p> 
-                    <p>Bereme v úvahu pouze citace patentů v dalších patentech, nikoliv v jiných dokumentech jako mohou být právě časopisecké články, protože k nim máme neúplné údaje.</p>                    
+                    <p>Bereme v úvahu pouze citace patentů v dalších patentech, nikoliv v jiných dokumentech jakými mohou být právě časopisecké články, protože k nim máme neúplné údaje.</p>                    
                     <p>Časopisecké citace jsou lehce zjistitelné v citačních databázích jako <a href="https://www.scopus.com/search/form.uri?display=basic" target="_blank">Scopus</a> anebo <a href="https://apps.webofknowledge.com/WOS_GeneralSearch_input.do?product=WOS&search_mode=GeneralSearch&SID=E1PsJJvzt4o8B4oKPJO&preferencesSaved=" target="_blank">Web of Science</a>. Pro patentové citace nic takového není. Kdo je chce znát, musí si je vytáhnout přímo z individuálních dat.</p>
                     <p>Protože citace patentů je složité sledovat, nepoužívají se k hodnocení výzkumu, a nedochází tudíž ani k jejich umělému navyšování. Alespoň doposud by to vynálezcům v českém prostředí k ničemu nebylo.</p>
 
@@ -313,8 +315,8 @@
                 <div class="close" onclick="hideModal()"><img src="img/closeIcon3.svg" /></div>
                 <div class="modalBody">
                     <h3>Organizace</h3>
-                    <p>Do analýzy jsou zařazeny organizace se sídlem na území Česka, které byly uvedeny v databázi <a href="https://www.epo.org/searching-for-patents/business/patstat.html#tab-1" target="_blank">PATSTAT</a> (Spring 2016 edition) jako vlastníci alespoň jedné žádosti o patent s datem podání od roku 2000.</p>
-                    <p>PATSTAT neposkytuje unikátní identifikátory. Názvy organizací bylo nutné s pomocí algoritmů i ručně vyčistit a harmonizovat. Následně bylo k názvu na základě <a href="https://www.czso.cz/csu/res/registr_ekonomickych_subjektu" target="_blank">Registru ekonomických subjektů</a> přiřazeno IČO.</p>
+                    <p>Do analýzy jsou zařazeny organizace se sídlem na území Česka, které byly uvedeny v databázi <a href="https://www.epo.org/searching-for-patents/business/patstat.html#tab-1" target="_blank">PATSTAT</a> (Spring 2016 edition) jako vlastníci alespoň jedné žádosti o patent s datem podání počínaje rokem 2000.</p>
+                    <p>PATSTAT neposkytuje unikátní identifikátory. Názvy organizací bylo nutné s pomocí algoritmů i ručně vyčistit a harmonizovat. Následně bylo k názvu organizace na základě <a href="https://www.czso.cz/csu/res/registr_ekonomickych_subjektu" target="_blank">Registru ekonomických subjektů</a> přiřazeno IČO.</p>
                     <p>Základní jednotkou je organizace s vlastním IČO. Dokážeme rozlišit ústavy Akademie věd ČR, ale nikoliv jednotlivé fakulty vysokých škol. Podniky nejsou konsolidovány podle koncového vlastníka na úrovni koncernu anebo skupiny.</p>
                     <p>Jednotlivé fyzické osoby, které jsou nejen vynálezci, ale často i přímo vlastníky patentů, nesledujeme, protože tyto údaje se ukázaly být ještě náročnější ke zpracování.</p>
                     <p>Z podkladových dat známe pouze posledního vlastníka. Pokud byla práva k patentu získána od někoho jiného, předchozího vlastníka nedokážeme vystopovat.</p>
@@ -332,11 +334,11 @@
                     <p>PATSTAT je největší patentová databáze s 90 milióny dokumentů z oblasti ochrany duševního vlastnictví ze 40 hlavních patentových úřadů ve světě.</p>
                     <p>Pro výpočty bereme pouze patenty, tj. <i>patent of invention</i>. Ostatní „menší“ nástroje ochrany duševního vlastnictví, jako užitné či průmyslové vzory, nejsou zohledněny.</p>
                     <p>Analýza je založena na zveřejněných žádostech o patenty, tj. žádostech, které prošly prvotním sítem patentových úřadů a po uplynutí 18 měsíců od vzniku práva přednosti byly zveřejněny ve věstníku.</p>
-                    <p>Žádosti, nikoliv až k udělené patenty, jsou použity s cílem zachytit co největší citační stopu a zároveň co nejvíce omezit časové zpoždění výsledků.</p>
+                    <p>Žádosti, nikoliv až udělené patenty, jsou použity s cílem zachytit co největší citační stopu a zároveň co nejvíce omezit časové zpoždění výsledků.</p>
                     <p>Sledované žádosti pochází z českého <a href="http://upv.cz/cs.html" target="_blank">ÚPV</a>, mezinárodního <a href="http://www.wipo.int/portal/en/index.html" target="_blank">WIPO</a> (skrze <a href="http://www.wipo.int/pct/en/" target="_blank">PCT</a>) a ze tří hlavních zahraničních úřadů <a href="https://www.epo.org/index.html" target="_blank">EPO</a>, <a href="https://www.uspto.gov/" target="_blank">USPTO</a> a <a href="https://www.jpo.go.jp/" target="_blank">Japan Patent Office</a>. Citace jsou zmapovány ze všech 40 patentových úřadů v databázi.</p>
                     <p>Žádosti o ochranu stejného vynálezu podané více cestami jsou sdruženy do jednoho záznamu, tj. do tzv. <i>patent family</i>, čímž je rovněž zabráněno započítávání citací různých žádostí ke stejnému vynálezu mezi sebou.</p>
                     <p>Do analýzy vstupují žádosti podané po roce 2000. Pro zařazení do analýzy stačí, aby alespoň jedna žádost v rámci <i>patent family</i> spadala do sledovaného období.</p>
-                    <p>Od roku 2014 jsou data neúplná z důvodu lhůty 18 měsíců pro zveřejnění žádosti i vlivem zpoždění v aktualizacích dat z jednotlivých patentových úřadů.</p>
+                    <p>Poslední dostupná data jsou z roku 2014 z důvodu lhůty 18 měsíců pro zveřejnění žádosti i vlivem zpoždění v aktualizacích dat z jednotlivých patentových úřadů.</p>
                 </div>
                 <center><a onclick="hideModal()" class="button buttonActive">Skrýt</a></center>
             </div>
@@ -349,7 +351,6 @@
                     <p>Navíc údaje o souvisejících finančních tocích nejsou vždy přístupné a nemusí se je ani podařit dodatečně sesbírat.</p>
                     <p>Citace jsou objektivnější, protože odráží především technologickou relevanci vynálezu, nikoliv jeho komerční hodnotu na trhu, která závisí na řadě faktorů.</p>
                     <p>Díky tomu jsou citace i lépe souměřitelné mezi různými typy organizací. Citační potenciál patentu tolik neovlivňuje, jestli je jeho původcem podnik anebo univerzita.</p>
-                    <p>Patenty rovněž nutně po nějaké době vyprší, ale pokud zůstávají relevantní, mohou být citovány i potom.</p>
                 </div>
                 <center><a onclick="hideModal()" class="button buttonActive">Skrýt</a></center>
             </div>
@@ -371,8 +372,8 @@
                 <div class="modalBody">
                     <h3>Patenty v hodnocení výzkumu</h3>
                     <p>Od roku  2008 začaly být ve vládním systému hodnocení, pro který se vžil název <a href="https://www.vyzkum.cz/FrontClanek.aspx?idsekce=503762" target="_blank">„kafemlejnek“ (první verze)</a>, přidělovány body za každý patent (s bonusem pro využívané patenty). Za patenty <a href="https://www.epo.org/index.html" target="_blank">EPO</a>, <a href="https://www.uspto.gov/" target="_blank">USPTO</a> a <a href="https://www.jpo.go.jp/" target="_blank">Japan Patent Office</a> bylo navíc udělováno obrovské množství bodů bez ohledu na cokoliv dalšího.</p>
-                    <p>Podle těchto bodů se pak trojčlenkou rozdělovaly peníze na institucionální podporu výzkumu, což motivovalo k patentování jen kvůli bodům. Nejvíce se vytvářely nesmyslné užitné vzory, ale platilo to i pro patenty.</p>
-                    <p><a href="https://www.vyzkum.cz/FrontClanek.aspx?idsekce=685899" target="_blank">Revidovaný kafemlejnek, tzv. Metodika 2013</a> který začal platit od roku 2012, bodové ohodnocení patentů omezil, ale princip sčítání bodů za výsledky a následně přímá úměra peněz za body zůstal stejný.</p>
+                    <p>Podle těchto bodů se pak trojčlenkou rozdělovaly peníze na institucionální podporu výzkumu, což motivovalo k patentování jen kvůli bodům. Nejvíce se samoúčelně vytvářely užitné vzory, ale platilo to i pro patenty.</p>
+                    <p><a href="https://www.vyzkum.cz/FrontClanek.aspx?idsekce=685899" target="_blank">Revidovaný kafemlejnek, tzv. Metodika 2013</a> který začal platit od roku 2012, bodové ohodnocení patentů omezil, ale princip sčítání bodů za výsledky a následně přidělování peněz za body zůstal stejný.</p>
                     <p>Až nová metodika <a href="https://www.vyzkum.cz/FrontClanek.aspx?idsekce=799796" target="_blank">Metodika 2017+</a> tomuto principu udělala přítrž a zavedla hodnocení výzkumných organizací v pěti modulech, včetně hodnocení kvality vybraných výsledků skrze peer review, do kterého mohou být přihlášeny i patenty.</p>
                     <p>Nadále se však v oblasti hodnocení programů účelové podpory pokračuje v režimu „sčítání čárek“ za bezprostřední výstupy. Některé patenty tak stále vznikají primárně za účelem vykázání uznatelných výsledků v dotovaných projektech.</p>
                 </div>
@@ -383,7 +384,7 @@
                 <div class="modalBody">
                     <h3>Sektory</h3>
                     <p>Pro lepší orientaci jsou organizace rozřazeny do čtyř sektorů:</p>
-                    <p>a) Akademie věd ČR – instituty <a href="http://www.avcr.cz/cs/" target="_blank">Akademie věd ČR.</a></p>
+                    <p>a) Akademie věd ČR – výzkumné ústavy <a href="http://www.avcr.cz/cs/" target="_blank">Akademie věd ČR.</a></p>
                     <p>b) Veřejné vysoké školy – podle <a href="http://www.msmt.cz/ministerstvo/odkazy/vysoke-skoly" target="_blank">seznamu MŠMT</a> (k 14. 9. 2018).</p>
                     <p>c) Ostatní výzkumné organizace – ostatní subjekty na <a href="http://www.msmt.cz/vyzkum-a-vyvoj-2/seznam-vyzkumnych-organizaci" target="_blank">seznamu výzkumných organizací MŠMT</a> (k 14. 9. 2018) anebo <a href="https://www.vyzkum.cz/FrontClanek.aspx?idsekce=560752" target="_blank">seznamu posouzených výzkumných organizací RVVI</a> (k 2. 2. 2017).</p>
                     <p>d) Podniky (a různé) – všechny ostatní subjekty, z nichž drtivou většinu tvoří soukromé podnikatelské subjekty.</p>
@@ -401,6 +402,36 @@
                     </div>
                     <center><a onclick="hideModal()" class="button buttonActive">Skrýt</a></center>
                 </div>
+            
+            <div id="modHoly" class="modal">
+                    <div class="close" onclick="hideModal()"><img src="img/closeIcon3.svg" /></div>
+                    <div class="modalBody">
+                        <h3>Citace patentů profesora Antonína Holého</h3>
+                        <p>Nejvýznamnější patenty profesora Antonína Holého spadají do osmdesátých a devadesátých let, takže mimo časový záběr této studie.</p>
+                        <p>Nicméně například látka tenofovir z roku 1985, na kterou se váže <i>patent family</i> s názvem 9-(phosponylmethoxyalkyl) adenines,
+                            the method of preparation and utilization thereof, zaznamenala 158 citací, čímž se řadí k nejcitovanějším vynálezům českého původu vůbec.</p>
+                        <p>Kdyby se tato analýza dívala více do minulosti, byl by Ústav organické chemie a biochemie AV ČR díky citacím vynálezů profesora Antonína Holého
+                            bezpochyby na úplné špici prezentovaného srovnání.</p>
+                    </div>
+                    <center><a onclick="hideModal()" class="button buttonActive">Skrýt</a></center>
+                </div>
+                
+            <div id="modObdobi" class="modal">
+                    <div class="close" onclick="hideModal()"><img src="img/closeIcon3.svg" /></div>
+                    <div class="modalBody">
+                        <h3>Starší a novější patenty</h3>
+                        <p>Celkové sledované období je možné rozdělit na dvě části:</p>
+                        <p>a) Citace patentů s datem podání žádosti v letech 2000-2006.</p>
+                        <p>b) Citace patentů s datem podání žádosti v letech 2007-2014.</p>
+                        <p>Pro zařazení <i>patent family</i>, která sdružuje žádosti vztahující se ke stejnému vynálezu podané různými cestami, do daného období stačí, 
+                            aby tam spadala alespoň jedna z nich. Některé <i>patent family</i> se tudíž řadí do obou období.</p>
+                        <p>Pro patenty z prvního období bylo zaznamenáno podstatně více citací, protože již měly dostatečný čas naběhnout téměř v plné míře. 
+                            Naopak citace patentů z druhého období, a to zvláště těch nejnovějších, stále nabíhají, takže se jedná o předběžná data. 
+                            Ke srovnání výsledků mezi oběma obdobími je tudíž nutné přistupovat velmi opatrně.</p>
+                    </div>
+                    <center><a onclick="hideModal()" class="button buttonActive">Skrýt</a></center>
+                </div>
+    
             <div id="modPodekovani" class="modal">
                     <div class="close" onclick="hideModal()"><img src="img/closeIcon3.svg" /></div>
                     <div class="modalBody">
@@ -412,8 +443,8 @@
             <div id="modPredchoziStudie" class="modal">
                 <div class="close" onclick="hideModal()"><img src="img/closeIcon3.svg" /></div>
                 <div class="modalBody">
-                    <h3>Předchozí studie IDEA</h3>
-                    <p>Doporučujeme předchozí IDEA studie na související témata:</p>
+                    <h3>Předchozí studie think-tanku IDEA</h3>
+                    <p>Doporučujeme předchozí studie think-tanku IDEA na související témata:</p>
                     <p>Sidorkin, O. and Srholec, M. (2017) <a href="https://idea.cerge-ei.cz/files/IDEA_Study_8_2017_Direct_subsidies_and_R&D_output_in_firms/mobile/index.html" target="_blank">Do direct subsidies stimulate new R&D output in firms? A comparison of IMPULS, TIP and ALFA programmes</a>. Studie 8/2017. Think-tank IDEA při NHÚ AV ČR.</p>
                     <p>Palguta, J., and Srholec, M. (2016) <a href="https://idea.cerge-ei.cz/files/IDEA_Studie_17_2016_Prime_dotace_a_soukrome_vydaje_na_VaV/mobile/index.html" target="_blank">Stimulují přímé dotace soukromé výdaje firem na VaV? Metoda regresní diskontinuity</a>. Studie 17/2016. Think-tank IDEA při NHÚ AV ČR. </p>
                     <p>Macháček, V. a Srholec, M. (2016) <a href="https://idea.cerge-ei.cz/files/IDEA_Studie_15_2016_Podnikani_akademiku/mobile/index.html" target="_blank">Transfer znalostí do praxe podnikajícími akademiky v České republice</a>. Studie 8/2016. Think-tank IDEA při NHÚ AV ČR. </p>

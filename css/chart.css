@@ -23,8 +23,8 @@ form {
 }
 .footnote {
     position: relative;
-    top:-110px;
     margin-top:10px;
+    top:-110px;
     font-size: calc(9px + .5vh);
     height: 5vh;
     z-index: 0;
@@ -112,15 +112,30 @@ form {
   }
 
   .switcher {
-      cursor: pointer;
+      float:left;
+      width: 33.33%;
+  }
+
+  .switchCol {
+    cursor: pointer;
+  }
+
+  .switcher:after {
+      content: "";
+      display:table;
+      clear:both;
   }
 
   #swFilters {
       /* margin-right: 100px; */
   }
+  #swYears {
+      text-align: center;
+  }
 
   #swSumBy {
-      float:right;
+      /* float:right; */
+      text-align:right;
   }
 
   .switchCol {

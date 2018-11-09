@@ -9,7 +9,7 @@ setwd("D:/Dropbox/Hugo/Patenty/genData")
 #IMPORT EXCEL
 library(readxl)
 library(jsonlite)
-patents <- read_excel("181026_Data_VitekPaulina.xlsx")
+patents <- read_excel("181102_Data_FakePeriods.xlsx")
 patents$ID <- seq.int(nrow(patents))
 patents$children <- "children"
 
@@ -18,7 +18,7 @@ library(data.table)
 dt <- as.data.table(patents)
 
 #VITEK ADDED:
-dt_split <- split(dt,by=c("children"),keep.by=F,flatten=F)
+dt_split <- split(dt,by=c("period","children"),keep.by=F,flatten=F)
 exportJson <- toJSON(dt_split, dataframe = "rows", pretty=T, encoding="UTF-8")
 writeLines(c('var patents = {\n "name":"patents", \n' ,exportJson),"treedata.js",useBytes=T) 
 ### After writing, copy treedata.js into Patenty/data, need to delete "{"right before children node.
