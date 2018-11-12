@@ -199,15 +199,12 @@ h4 {
 }
 .sticky {
     position: fixed;
-    -webkit-backface-visibility: hidden;
     top:0px;
     width: 100%;
     z-index: 5;
 }
 .stickyshadow {
     position: fixed;
-    -webkit-backface-visibility: hidden;
-
     top:0px;
     height:6vh;
     width: 100%;
