@@ -3,13 +3,13 @@ install.packages("rjson")
 install.packages("data.table")
 install.packages("readxl")
 
-setwd("D:/Dropbox/Hugo/Patenty/genData")
+setwd("D:/Dropbox/Hugo/PatentCitations2/genData")
 #setwd("C:/Users/vitekzkytek/Dropbox/Hugo/Patenty/genData")
 
 #IMPORT EXCEL
 library(readxl)
 library(jsonlite)
-patents <- read_excel("181102_Data_FakePeriods.xlsx")
+patents <- read_excel("181105_Data_Vitek_edit.xlsx")
 patents$ID <- seq.int(nrow(patents))
 patents$children <- "children"
 
@@ -26,17 +26,20 @@ writeLines(c('var patents = {\n "name":"patents", \n' ,exportJson),"treedata.js"
 # SELECT2 JSON
 #IMPORT EXCEL
 library(readxl)
-patents <- read_excel("181026_Data_VitekPaulina.xlsx")
+patents <- read_excel("181105_Data_Vitek_edit.xlsx")
 patents$id <- patents$ico
 patents$level <- rep(1,nrow(patents))
 patents$text <- patents$name
 patents$displayed = T
 patents$displayed[patents$citations_All == 0] = F
+patents = patents[order(patents$name),]
 library(data.table)
 dt <- as.data.table(patents)
+dt_split <- split(dt,by=c("period"),keep.by=F,flatten=F)
+
 #colnames(dt)[2] = "text"
 library(jsonlite)
-s = toJSON(dt,dataframe='rows',pretty=F,encoding="UTF-8")
+s = toJSON(dt_split,dataframe='rows',pretty=F,encoding="UTF-8")
 writeLines(c('var menudata = ' ,s),"ddldata.js",useBytes=T) 
 ### After writing, copy ddldata.js into Patenty/data
 
