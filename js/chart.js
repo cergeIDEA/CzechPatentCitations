@@ -117,7 +117,7 @@
           function formatSelect2(node) {
             scolor = (node.displayed) ? 'ddlvisible' : 'ddlunvisible'
 
-            if ((filterInst !== 'All') || (selPeriod !== 'All')) {
+            if ((filterInst !== 'All') || (selPeriod !== 'All') || (selectedInstTypes.length !== 4)) {
                 if (typeof node.ico !== 'undefined') {
 
                     if ($('#ico'+node.ico).length == 0) {
