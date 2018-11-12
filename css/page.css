@@ -10,11 +10,12 @@ body {
     /* font-size: 2vh; */
     font-size:calc(12px + .5vh);
     overflow:auto;
+    overflow-x: hidden;
 }
 #everything {
     position: relative;
     background-color:white;
-    width:99vw;
+    width:100vw;
     min-width:1000px;
     margin:auto;
 }
