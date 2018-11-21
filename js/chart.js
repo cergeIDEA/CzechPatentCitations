@@ -36,7 +36,7 @@
               color: 'blue'
           },
           {
-              name: 'Akademie věd',
+              name: 'Akademie věd ČR',
               id: 'avcr',
               color: 'orange'
           },
